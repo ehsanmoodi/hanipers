@@ -1,6 +1,6 @@
 .footer {
   @apply relative w-screen overflow-x-hidden;
-  @apply pb-5 pt-20;
+  @apply pb-5 pt-40 lg:pt-20;
   @apply bg-gradient-to-b from-sail to-malibu;
   @apply text-white font-medium;
 
@@ -14,6 +14,15 @@
       @apply -left-2;
       @apply h-full;
       width: calc(100% + 16px);
+
+      img {
+        object-fit: cover;
+        object-position: right;
+
+        @screen lg {
+          object-fit: fill;
+        }
+      }
     }
   }
 
