@@ -1,0 +1,24 @@
+.social-icon {
+  @apply flex items-center justify-center w-10 h-10 rounded-full relative z-10;
+  @apply bg-white bg-opacity-20;
+
+  svg path {
+    @apply transition-all duration-500;
+  }
+
+  &::before {
+    content: "";
+    @apply absolute -z-10 w-0 h-0 bg-white rounded-full inset-0 m-auto;
+    @apply transition-all duration-300;
+  }
+
+  &:hover {
+    svg path {
+      @apply stroke-bright-red;
+    }
+
+    &::before {
+      @apply h-full w-full;
+    }
+  }
+}

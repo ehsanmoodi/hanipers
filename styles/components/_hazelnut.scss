@@ -1,0 +1,7 @@
+.hazelnut {
+  @apply inline-block;
+  content: url("/images/hazelnut.png");
+  @apply absolute;
+  @apply origin-center;
+  @apply w-24 h-auto;
+}

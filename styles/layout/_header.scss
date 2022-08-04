@@ -1,0 +1,73 @@
+.header {
+  @apply relative;
+  @apply lg:bg-transparent;
+  @apply fixed top-0 left-0 right-0 z-40;
+  @apply px-4 py-4 xl:px-0 lg:py-0;
+
+  &.scrolled {
+    @apply bg-white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
+  }
+
+  $parent: &;
+
+  &.open {
+    @media (max-width: 1024px) {
+      @apply bg-white;
+      box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
+
+      #{$parent}__items {
+        @apply flex flex-col items-center mt-5;
+      }
+
+      #{$parent}__toggle {
+        .top {
+          @apply -translate-x-4;
+        }
+
+        .middle1 {
+          @apply -rotate-45;
+        }
+
+        .middle2 {
+          @apply rotate-45;
+        }
+
+        .bottom {
+          @apply translate-x-4;
+        }
+      }
+    }
+  }
+
+  &__toggle {
+    @apply flex items-end gap-2;
+    @apply font-medium text-base;
+    @apply lg:hidden;
+
+    .top,
+    .bottom,
+    .middle1,
+    .middle2 {
+      @apply transition-all;
+      @apply origin-center;
+    }
+
+    .middle1,
+    .middle2 {
+      @apply duration-1000;
+    }
+
+    .top,
+    .bottom {
+      @apply duration-700;
+    }
+  }
+
+  &__items {
+    @apply hidden;
+    @apply container mx-auto px-4 py-4 lg:px-0;
+    @apply font-medium text-lg;
+    @apply lg:flex gap-4 lg:flex-row lg:gap-10;
+  }
+}

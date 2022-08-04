@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-calibri;
+    @apply scroll-smooth;
+  }
+
+  main {
+    @apply w-screen overflow-x-hidden;
+    @apply flex flex-col gap-12 lg:gap-24;
+    @apply pb-12 lg:pb-24;
+  }
+}

@@ -1,0 +1,43 @@
+.footer {
+  @apply py-6;
+  @apply bg-gradient-to-l from-crimson to-bright-red;
+  @apply text-white font-medium;
+
+  hr {
+    @apply opacity-40;
+  }
+
+  &__contact {
+    @apply text-lg;
+    @apply flex flex-col gap-4;
+    @apply lg:flex-row lg:gap-8;
+
+    &__item {
+      @apply flex items-center gap-2;
+
+      svg {
+        @apply shrink-0;
+      }
+
+      &:hover {
+        svg {
+          @apply animate-pulse;
+        }
+      }
+    }
+
+    &__socials {
+      @apply flex gap-3 self-center lg:ml-auto;
+    }
+  }
+
+  &__copy-right {
+    @apply text-base;
+    @apply flex flex-col items-center text-center gap-4;
+    @apply lg:flex-row lg:justify-between;
+
+    a {
+      @apply underline-offset-8 hover:underline;
+    }
+  }
+}
