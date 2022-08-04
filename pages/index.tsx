@@ -21,12 +21,11 @@ const Home: NextPage = () => {
 
       {/* <Header /> */}
 
-      <main className="">
-        {/* <h1 className="text-5xl font-normal">OUR BLOG</h1> */}
+      <main>
         {/* <IndexHero />
         <IndexAbout />
-        <IndexIngredients />
-        <IndexBlog /> */}
+        <IndexIngredients /> */}
+        <IndexBlog />
       </main>
 
       <Footer />

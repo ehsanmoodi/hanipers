@@ -8,15 +8,17 @@ const BlogItem: React.FC<BlogItemProps> = forwardRef(
   ({ image, title, date, views, href }, ref: Ref<HTMLDivElement>) => {
     return (
       <article ref={ref} className="blog-itm">
-        <div className="blog-itm__image">
-          <Image
-            src={image.src}
-            alt={image.alt}
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            objectPosition="center"
-          />
+        <div className="blog-itm__image__container">
+          <div className="blog-itm__image__container__curve"></div>
+          <div className="blog-itm__image">
+            <Image
+              src={image.src}
+              alt={image.alt}
+              layout="fill"
+              objectFit="cover"
+              objectPosition="center"
+            />
+          </div>
         </div>
         <div className="blog-itm__detail">
           <Link href={href}>
@@ -26,9 +28,6 @@ const BlogItem: React.FC<BlogItemProps> = forwardRef(
             <span className="date">{date}</span>
             <span className="views">{views} View</span>
           </div>
-          <Link href={href}>
-            <a className="blog-itm__detail__link">Read The Article</a>
-          </Link>
         </div>
       </article>
     );

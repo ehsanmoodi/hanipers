@@ -1,3 +1,7 @@
+import blogImage1 from "../../public/images/blog/blog-image-1.png";
+import blogImage2 from "../../public/images/blog/blog-image-2.png";
+import blogImage3 from "../../public/images/blog/blog-image-3.png";
+
 import BlogItem from "../BlogItem";
 import H2 from "../H2";
 import { motion, useAnimationControls, useInView } from "framer-motion";
@@ -7,8 +11,8 @@ const blogItems = [
   {
     id: 1,
     image: {
-      src: "/temp/blog-item1.png",
-      alt: "Lorem ipsum dolor sit consectetur adipiscing",
+      src: blogImage1,
+      alt: "",
     },
     title: "Lorem ipsum dolor sit consectetur adipiscing",
     date: "20 oct 2021",
@@ -18,8 +22,8 @@ const blogItems = [
   {
     id: 2,
     image: {
-      src: "/temp/blog-item2.png",
-      alt: "Lorem ipsum dolor sit consectetur adipiscing",
+      src: blogImage2,
+      alt: "",
     },
     title: "Lorem ipsum dolor sit consectetur adipiscing",
     date: "20 oct 2021",
@@ -29,8 +33,8 @@ const blogItems = [
   {
     id: 3,
     image: {
-      src: "/temp/blog-item3.png",
-      alt: "Lorem ipsum dolor sit consectetur adipiscing",
+      src: blogImage3,
+      alt: "",
     },
     title: "Lorem ipsum dolor sit consectetur adipiscing",
     date: "20 oct 2021",
@@ -85,7 +89,7 @@ const IndexBlog: React.FC = () => {
       id="blog"
       ref={ref}
     >
-      <H2>Our Blog</H2>
+      <H2>OUR BLOG</H2>
       <div className="index-blog__container">
         {blogItems.map((item) => (
           <MotionBlogItem
@@ -99,11 +103,6 @@ const IndexBlog: React.FC = () => {
           />
         ))}
       </div>
-
-      <div className="index-blog__pt1"></div>
-      <div className="index-blog__pt2"></div>
-      <div className="index-blog__pt3"></div>
-      <div className="index-blog__pt4"></div>
     </motion.section>
   );
 };

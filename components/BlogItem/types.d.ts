@@ -1,6 +1,8 @@
+import { StaticImageData } from "next/image";
+
 export interface BlogItemProps {
   image: {
-    src: string;
+    src: string | StaticImageData;
     alt?: string;
   };
   title: string;
