@@ -1,3 +1,4 @@
+import footerBgPattern from "../../public/images/footer-pattern.png";
 import {
   Address,
   Call,
@@ -7,29 +8,46 @@ import {
   Whatsapp,
 } from "../../icons";
 import SocialIcon from "../SocialIcon";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
   const socials = [
     {
       id: "telegram",
-      href: "https://t.me/tickers",
+      href: "https://t.me/hanipers",
       icon: <Telegram />,
     },
     {
       id: "whatsapp",
-      href: "https://wa.me/09012611501",
+      href: "https://wa.me/09901234567",
       icon: <Whatsapp />,
     },
     {
       id: "instagram",
-      href: "https://instagram.com/tickers",
+      href: "https://instagram.com/hanipers",
       icon: <Instagram />,
     },
   ];
 
   return (
     <footer className="footer" id="footer">
-      <div className="container mx-auto px-4 xl:px-0 flex flex-col gap-6">
+      <motion.div
+        initial={{ x: -8 }}
+        animate={{
+          x: 8,
+          transition: {
+            ease: "linear",
+            repeat: Infinity,
+            duration: 3,
+            repeatType: "mirror",
+          },
+        }}
+        className="footer__bg--pattern"
+      >
+        <Image src={footerBgPattern} layout="fill" />
+      </motion.div>
+      <div className="container relative mx-auto px-4 xl:px-0 flex flex-col gap-5">
         <div className="footer__contact">
           <span className="footer__contact__item">
             <Address />
@@ -39,9 +57,9 @@ const Footer: React.FC = () => {
             <Email />
             info@Tickers.com
           </a>
-          <a href="tel:09012611501" className="footer__contact__item">
+          <a href="tel:09901234567" className="footer__contact__item">
             <Call />
-            (901)261-1501
+            (990)123-4567
           </a>
           <ul className="footer__contact__socials">
             {socials.map((item) => (
@@ -53,9 +71,9 @@ const Footer: React.FC = () => {
         </div>
         <hr />
         <div className="footer__copy-right">
-          <p>© 2022 Tickers. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Hanipers. All rights reserved.</p>
           {/* <p>
-            Designed & Developed by <a href="#">MoodiStudio</a>
+            Designed & Developed by <a href="https://instagram.com/moodistudio">MoodiStudio</a>
           </p> */}
         </div>
       </div>

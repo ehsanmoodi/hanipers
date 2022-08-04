@@ -21,8 +21,8 @@ const Home: NextPage = () => {
 
       {/* <Header /> */}
 
-      <main className="flex items-center justify-center w-screen h-screen">
-        <h1 className="text-5xl font-normal">OUR BLOG</h1>
+      <main className="">
+        {/* <h1 className="text-5xl font-normal">OUR BLOG</h1> */}
         {/* <IndexHero />
         <IndexAbout />
         <IndexIngredients />

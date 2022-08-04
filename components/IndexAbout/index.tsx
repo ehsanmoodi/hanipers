@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import H2 from "../H2";
 import { motion, useAnimationControls, useInView } from "framer-motion";
-import { PlayBtn } from "../../icons";
 
 const IndexAbout: React.FC = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -154,9 +153,7 @@ const IndexAbout: React.FC = () => {
             <button
               onClick={() => setShowVideo(!showVideo)}
               className="index-about__video__toggle"
-            >
-              <PlayBtn />
-            </button>
+            ></button>
           </div>
         </div>
       </section>

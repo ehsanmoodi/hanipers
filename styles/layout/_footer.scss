@@ -1,10 +1,20 @@
 .footer {
-  @apply py-6;
-  @apply bg-gradient-to-l from-crimson to-bright-red;
+  @apply relative w-screen overflow-x-hidden;
+  @apply pb-5 pt-20;
+  @apply bg-gradient-to-b from-sail to-malibu;
   @apply text-white font-medium;
 
   hr {
-    @apply opacity-40;
+    @apply opacity-60;
+  }
+
+  &__bg {
+    &--pattern {
+      @apply absolute inset-0;
+      @apply -left-2;
+      @apply h-full;
+      width: calc(100% + 16px);
+    }
   }
 
   &__contact {

@@ -10,10 +10,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        "bright-red": "#B50100",
-        crimson: "#D6231F",
-        mercury: "#E5E5E5",
-        "silver-chlic": "#A7A7A7",
+        malibu: "#6EB7F1",
+        sail: "#BCE2F9",
+        RobinEggBlue: "#00BBB4",
+        // "bright-red": "#B50100",
+        // crimson: "#D6231F",
+        // mercury: "#E5E5E5",
+        // "silver-chlic": "#A7A7A7",
       },
       keyframes: {
         "bounce-horizontal": {
