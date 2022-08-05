@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
       >
         <Image src={footerBgPattern} layout="fill" />
       </motion.div>
-      <div className="container relative mx-auto px-4 xl:px-0 flex flex-col gap-5">
+      <div className="container relative mx-auto px-4 flex flex-col gap-5">
         <div className="footer__contact">
           <span className="footer__contact__item">
             <Address />

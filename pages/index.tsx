@@ -1,14 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import {
-  Footer,
-  Header,
-  IndexAbout,
-  IndexBlog,
-  IndexIngredients,
-} from "../components";
-import IndexHero from "../components/IndexHero";
+import { Footer, Header, IndexBlog, IndexIngredients } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -22,9 +14,9 @@ const Home: NextPage = () => {
       {/* <Header /> */}
 
       <main>
-        {/* <IndexHero />
-        <IndexAbout />
-        <IndexIngredients /> */}
+        {/* <IndexHero /> */}
+        {/* <IndexAbout /> */}
+        <IndexIngredients />
         <IndexBlog />
       </main>
 
