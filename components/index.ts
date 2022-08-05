@@ -5,3 +5,4 @@ export { default as H2 } from "./H2";
 export { default as BlogItem } from "./BlogItem";
 export { default as IndexBlog } from "./IndexBlog";
 export { default as IndexIngredients } from "./IndexIngredients";
+export { default as IndexHero } from "./IndexHero";

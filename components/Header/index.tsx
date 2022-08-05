@@ -1,6 +1,31 @@
 import { useEffect, useState } from "react";
+import { Instagram, Telegram, Whatsapp } from "../../icons";
+
+import SocialIcon from "../SocialIcon";
+
+import headerLogo from "../../public/images/header/logo.png";
+import Link from "next/link";
+import Image from "next/image";
 
 const Header: React.FC = () => {
+  const socials = [
+    {
+      id: "telegram",
+      href: "https://t.me/hanipers",
+      icon: <Telegram />,
+    },
+    {
+      id: "whatsapp",
+      href: "https://wa.me/09901234567",
+      icon: <Whatsapp />,
+    },
+    {
+      id: "instagram",
+      href: "https://instagram.com/hanipers",
+      icon: <Instagram />,
+    },
+  ];
+
   const headerHeight = 60;
   const [scroll, setScroll] = useState<boolean>(false);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -115,7 +140,15 @@ const Header: React.FC = () => {
         Menu
       </button>
 
+      <span className="header__logo header__logo--mobile">
+        <Image src={headerLogo} />
+      </span>
+
       <ul className="header__items">
+        <span className="header__logo header__logo--desktop">
+          <Image src={headerLogo} />
+        </span>
+
         {headerItems.map((item) => (
           <li key={item.id}>
             <a onClick={(e) => handleItemClick(e, item.id)} href="#">
@@ -123,6 +156,14 @@ const Header: React.FC = () => {
             </a>
           </li>
         ))}
+
+        <ul className="footer__contact__socials">
+          {socials.map((item) => (
+            <li key={item.id}>
+              <SocialIcon href={item.href} icon={item.icon} />
+            </li>
+          ))}
+        </ul>
       </ul>
     </header>
   );

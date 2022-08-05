@@ -2,7 +2,9 @@
   @apply relative;
   @apply lg:bg-transparent;
   @apply fixed top-0 left-0 right-0 z-40;
-  @apply px-4 py-4 xl:px-0 lg:py-0;
+  @apply px-4 py-4 lg:py-0;
+  @apply flex items-center;
+  border: 1px solid red;
 
   &.scrolled {
     @apply bg-white;
@@ -64,10 +66,30 @@
     }
   }
 
+  &__logo {
+    &--mobile {
+      @apply lg:hidden;
+      @apply max-h-4;
+      @apply ml-auto;
+
+      img {
+        @apply max-h-4;
+      }
+    }
+
+    &--desktop {
+      @apply max-h-5;
+
+      img {
+        @apply max-h-5;
+      }
+    }
+  }
+
   &__items {
     @apply hidden;
     @apply container mx-auto px-4 py-4 lg:px-0;
     @apply font-medium text-lg;
-    @apply lg:flex gap-4 lg:flex-row lg:gap-10;
+    @apply lg:flex gap-4 lg:flex-row items-center lg:gap-10;
   }
 }

@@ -15,9 +15,7 @@ module.exports = {
         RobinEggBlue: "#00BBB4",
         alto: "#E0E0E0",
         prussianBlue: "#002147",
-        // "bright-red": "#B50100",
-        // crimson: "#D6231F",
-        // mercury: "#E5E5E5",
+        cornflowerBlue: "#559EEE",
         "silver-chlic": "#A7A7A7",
       },
       keyframes: {

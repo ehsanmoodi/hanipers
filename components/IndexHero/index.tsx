@@ -1,44 +1,50 @@
+import airplaneImg from "../../public/images/hero/airplane.png";
+import hanipersImg from "../../public/images/hero/hanipers.png";
+import lightBadgeImg from "../../public/images/hero/light.png";
+import cloudsImg from "../../public/images/hero/clouds.png";
+
 import Image from "next/image";
-import tickersPackage from "../../public/images/tickers-package.png";
-import tickersLogo from "../../public/images/tickers-logo.png";
 import { motion } from "framer-motion";
 
 const IndexHero: React.FC = () => {
   return (
     <section className="index-hero">
-      <div className="index-hero__bg"></div>
+      <Image
+        src={cloudsImg}
+        layout="fill"
+        objectFit="cover"
+        objectPosition="center center"
+      />
+
       <div className="index-hero__container">
         <motion.div
-          initial={{ x: "-100vw" }}
-          animate={{ x: 0 }}
-          transition={{ delay: 1.4, type: "spring", duration: 1, bounce: 0.3 }}
-          className="index-hero__image"
+          initial={{ scale: 0, x: "-100%" }}
+          animate={{ scale: 1, x: 0 }}
+          transition={{ delay: 1.5, duration: 4, ease: "linear" }}
+          className="index-hero__img"
         >
-          <Image src={tickersPackage} placeholder="blur" quality={100} />
+          <Image src={airplaneImg} />
         </motion.div>
         <motion.div
           initial={{ x: "100vw" }}
           animate={{ x: 0 }}
-          transition={{ delay: 1.4, type: "spring", duration: 1, bounce: 0.3 }}
-          className="index-hero__detail"
+          transition={{ delay: 1.5, duration: 1 }}
+          className="index-hero__info"
         >
-          <div>
-            <div className="index-hero__detail__logo">
-              <Image src={tickersLogo} placeholder="blur" quality={100} />
-            </div>
-            <p className="index-hero__detail__text">
-              Crispy thick multi layer wafer with roasted hazelnut.
-            </p>
-          </div>
+          <span className="index-hero__info__first-txt">
+            TRAVEL TO THE WORLD OF
+          </span>
+          <span className="index-hero__info__logo">
+            <Image src={hanipersImg} />
+          </span>
+          <span className="index-hero__info___badge">
+            <Image src={lightBadgeImg} />
+          </span>
+          <span className="index-hero__info__second-txt">
+            CAKE WITH DIFFERENT FILLING
+          </span>
         </motion.div>
       </div>
-
-      <motion.span
-        initial={{ rotate: 360, x: "100vw" }}
-        animate={{ rotate: 0, x: 0 }}
-        transition={{ delay: 1.75, duration: 2, type: "spring" }}
-        className="hazelnut"
-      ></motion.span>
     </section>
   );
 };

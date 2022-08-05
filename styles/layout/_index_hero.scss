@@ -1,63 +1,40 @@
 .index-hero {
   @apply relative;
-  @apply pt-14 lg:pt-16 pb-12 lg:pb-6;
+  @apply pt-14 lg:pt-48 pb-12 lg:pb-32;
+  @apply bg-gradient-to-b from-cornflowerBlue to-sail;
 
   &__container {
-    @apply container mx-auto px-4 xl:px-0;
-    @apply grid grid-cols-1 items-center gap-28 md:gap-0 lg:gap-0;
-    @apply lg:grid-cols-2;
+    @apply relative container mx-auto px-4 flex flex-col gap-10 items-center;
+    @apply lg:flex-row;
   }
 
-  &__bg {
-    content: "";
-    @apply absolute inset-0;
-    @apply w-full h-full w-screen;
-    background-image: url("/images/index-hero-responsive.png");
-    @apply bg-no-repeat;
-    background-size: 100% 100%;
-    @apply transition-all;
-
-    @screen md {
-      @apply bg-cover bg-center;
-    }
-
-    @screen lg {
-      background-image: url("/images/index-hero.png");
-      background-size: 100% 100%;
-    }
-
-    @screen 2xl {
-      @apply bg-cover bg-center;
-    }
+  &__img {
+    @apply w-full;
   }
 
-  &__image {
-    @apply relative flex mx-auto lg:mx-0;
-  }
+  &__info {
+    @apply w-full;
+    @apply flex flex-col items-center gap-4;
+    @apply lg:items-start lg:gap-5 xl:gap-6;
 
-  &__detail {
-    @apply relative;
-
-    & > div {
-      @apply flex flex-col gap-5 lg:gap-7 items-center;
-      @apply lg:w-3/4 lg:ml-auto lg:items-start;
+    &__first-txt {
+      @apply font-normal text-xl lg:text-2xl xl:text-3xl;
     }
 
     &__logo {
-      @apply relative;
+      // max-height: 70px;
+      @apply max-h-16;
+
+      img {
+        @apply max-h-16;
+      }
     }
 
-    &__text {
-      @apply font-calibri font-medium text-xl lg:text-2xl text-white;
-      @apply text-center lg:text-start;
+    &__badge {
     }
-  }
 
-  .hazelnut {
-    // @apply scale-75;
-    @apply right-5 -bottom-12;
-
-    // @apply lg:scale-100 lg:right-1/4;
-    @apply lg:right-1/4;
+    &__second-txt {
+      @apply font-bold text-xl lg:text-2xl xl:text-3xl;
+    }
   }
 }

@@ -1,6 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Footer, Header, IndexBlog, IndexIngredients } from "../components";
+import {
+  Footer,
+  Header,
+  IndexBlog,
+  IndexHero,
+  IndexIngredients,
+} from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -11,10 +17,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <Header /> */}
+      <Header />
 
       <main>
-        {/* <IndexHero /> */}
+        <IndexHero />
         {/* <IndexAbout /> */}
         <IndexIngredients />
         <IndexBlog />
