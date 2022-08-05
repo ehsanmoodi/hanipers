@@ -73,7 +73,7 @@ const thumbsImgVariant = {
   },
 };
 
-const IndexIngredients: React.FC = () => {
+const Ingredients: React.FC = () => {
   return (
     <section className="ingredients">
       <div className="ingredients__info">
@@ -174,4 +174,4 @@ const IndexIngredients: React.FC = () => {
   );
 };
 
-export default IndexIngredients;
+export default Ingredients;

@@ -68,7 +68,7 @@ const blogItemVariant = {
 
 const MotionBlogItem = motion(BlogItem);
 
-const IndexBlog: React.FC = () => {
+const Blog: React.FC = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -107,4 +107,4 @@ const IndexBlog: React.FC = () => {
   );
 };
 
-export default IndexBlog;
+export default Blog;

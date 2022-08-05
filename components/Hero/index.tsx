@@ -6,7 +6,7 @@ import cloudsImg from "../../public/images/hero/clouds.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const IndexHero: React.FC = () => {
+const Hero: React.FC = () => {
   return (
     <section className="index-hero">
       <Image
@@ -49,4 +49,4 @@ const IndexHero: React.FC = () => {
   );
 };
 
-export default IndexHero;
+export default Hero;
