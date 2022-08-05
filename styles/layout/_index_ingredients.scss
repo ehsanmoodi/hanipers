@@ -35,8 +35,12 @@
         @apply flex;
         gap: 10px;
 
-        img {
-          max-height: 56px !important;
+        & > div {
+          max-height: 56px;
+
+          img {
+            max-height: 56px;
+          }
         }
       }
     }
