@@ -7,10 +7,11 @@
     @apply font-calibri;
     @apply scroll-smooth;
     @apply text-prussianBlue;
+    @apply w-screen overflow-x-hidden;
   }
 
   main {
-    @apply w-screen overflow-x-hidden;
+    @apply overflow-x-hidden;
     @apply pb-12 lg:pb-24;
   }
 }
