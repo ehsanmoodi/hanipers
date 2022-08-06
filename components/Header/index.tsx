@@ -159,13 +159,13 @@ const Header: React.FC = () => {
           </li>
         ))}
 
-        {/* <ul className="footer__contact__socials">
+        <ul className="footer__contact__socials">
           {socials.map((item) => (
             <li key={item.id}>
               <SocialIcon href={item.href} icon={item.icon} />
             </li>
           ))}
-        </ul> */}
+        </ul>
       </ul>
     </header>
   );

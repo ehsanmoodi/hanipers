@@ -3,6 +3,15 @@
   @apply pt-14 lg:pt-48 pb-12 lg:pb-32;
   @apply bg-gradient-to-b from-cornflowerBlue to-sail;
 
+  &__clouds {
+    object-fit: cover;
+    object-position: center bottom;
+
+    @screen 2xl {
+      object-position: center top;
+    }
+  }
+
   &__container {
     @apply relative container mx-auto px-4 flex flex-col gap-10 items-center;
     @apply lg:flex-row;
@@ -22,8 +31,8 @@
     }
 
     &__logo {
-      // max-height: 70px;
       @apply max-h-16;
+      @apply relative;
 
       img {
         @apply max-h-16;
@@ -31,10 +40,12 @@
     }
 
     &__badge {
+      @apply relative;
     }
 
     &__second-txt {
       @apply font-bold text-xl lg:text-2xl xl:text-3xl;
+      @apply relative;
     }
   }
 }
