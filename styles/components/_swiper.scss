@@ -1,0 +1,23 @@
+@import "swiper/scss";
+@import "swiper/scss/pagination";
+@import "swiper/scss/effect-fade";
+
+.swiper-pagination {
+  @apply lg:flex lg:flex-col lg:gap-2;
+  @apply lg:top-0 lg:bottom-0 lg:my-auto;
+  @apply lg:max-h-min lg:max-w-min;
+
+  @screen lg {
+    left: 1rem !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  @apply w-4 h-4  opacity-100 transition-all;
+  @apply border border-white lg:border-prussianBlue;
+  @apply bg-transparent;
+
+  &-active {
+    @apply bg-white lg:bg-prussianBlue w-9 lg:w-4 lg:h-9 rounded-full;
+  }
+}

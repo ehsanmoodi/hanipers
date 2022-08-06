@@ -17,6 +17,11 @@ module.exports = {
         prussianBlue: "#002147",
         cornflowerBlue: "#559EEE",
         "silver-chlic": "#A7A7A7",
+        endeavour: "#0055B8",
+        saffaron: "#F3B232",
+        irishCoffee: "#672F25",
+        torchRed: "#EA0029",
+        superNova: "#FFCB05",
       },
       keyframes: {
         "bounce-horizontal": {
