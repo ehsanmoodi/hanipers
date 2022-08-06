@@ -75,7 +75,7 @@ const thumbsImgVariant = {
 
 const Ingredients: React.FC = () => {
   return (
-    <section className="ingredients">
+    <section id="ingredients" className="ingredients">
       <div className="ingredients__info">
         <H2>INGREDIENTS HANIPERS</H2>
         <p className="ingredients__info__text">

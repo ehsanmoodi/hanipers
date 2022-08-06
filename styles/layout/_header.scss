@@ -3,19 +3,18 @@
   @apply lg:bg-transparent;
   @apply fixed top-0 left-0 right-0 z-40;
   @apply px-4 py-4 lg:py-0;
-  @apply flex items-center;
-  border: 1px solid red;
-
-  &.scrolled {
-    @apply bg-white;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
-  }
+  @apply lg:flex lg:items-center;
 
   $parent: &;
 
+  &.scrolled {
+    @apply bg-gradient-to-b from-cornflowerBlue to-cornflowerBlue;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
+  }
+
   &.open {
     @media (max-width: 1024px) {
-      @apply bg-white;
+      @apply bg-gradient-to-b from-cornflowerBlue to-cornflowerBlue;
       box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.07);
 
       #{$parent}__items {
@@ -44,7 +43,7 @@
 
   &__toggle {
     @apply flex items-end gap-2;
-    @apply font-medium text-base;
+    @apply font-normal text-xl text-white;
     @apply lg:hidden;
 
     .top,
@@ -79,6 +78,7 @@
 
     &--desktop {
       @apply max-h-5;
+      @apply hidden lg:inline-block;
 
       img {
         @apply max-h-5;
@@ -89,7 +89,7 @@
   &__items {
     @apply hidden;
     @apply container mx-auto px-4 py-4 lg:px-0;
-    @apply font-medium text-lg;
+    @apply font-normal text-xl text-white;
     @apply lg:flex gap-4 lg:flex-row items-center lg:gap-10;
   }
 }

@@ -32,12 +32,12 @@ const Header: React.FC = () => {
 
   const headerItems = [
     {
-      id: "about",
-      label: "About",
-    },
-    {
       id: "ingredients",
       label: "Ingredients",
+    },
+    {
+      id: "about",
+      label: "About Product",
     },
     {
       id: "blog",
@@ -96,53 +96,55 @@ const Header: React.FC = () => {
     <header
       className={`header ${menuOpen ? "open" : ""} ${scroll ? "scrolled" : ""}`}
     >
-      <button onClick={toggleMenu} className="header__toggle">
-        <svg
-          width="26"
-          height="26"
-          viewBox="0 0 26 26"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            className="middle1"
-            d="M2 13L23.6667 13"
-            stroke="black"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            className="middle2"
-            d="M2 13L23.6667 13"
-            stroke="black"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            className="top"
-            d="M2 9.83008H12.8333"
-            stroke="black"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            className="bottom"
-            d="M13 16H23.8333"
-            stroke="black"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        Menu
-      </button>
+      <div className="flex itesm-centet justify-between lg:hidden">
+        <button onClick={toggleMenu} className="header__toggle">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              className="middle1"
+              d="M2 13L23.6667 13"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              className="middle2"
+              d="M2 13L23.6667 13"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              className="top"
+              d="M2 9.83008H12.8333"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              className="bottom"
+              d="M13 16H23.8333"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          Menu
+        </button>
 
-      <span className="header__logo header__logo--mobile">
-        <Image src={headerLogo} />
-      </span>
+        <span className="header__logo header__logo--mobile">
+          <Image src={headerLogo} />
+        </span>
+      </div>
 
       <ul className="header__items">
         <span className="header__logo header__logo--desktop">
@@ -157,13 +159,13 @@ const Header: React.FC = () => {
           </li>
         ))}
 
-        <ul className="footer__contact__socials">
+        {/* <ul className="footer__contact__socials">
           {socials.map((item) => (
             <li key={item.id}>
               <SocialIcon href={item.href} icon={item.icon} />
             </li>
           ))}
-        </ul>
+        </ul> */}
       </ul>
     </header>
   );

@@ -15,6 +15,7 @@ const Slider: React.FC = () => {
   return (
     <>
       <Swiper
+        id="about"
         modules={[Pagination, Autoplay, EffectFade]}
         effect={"fade"}
         grabCursor={true}
