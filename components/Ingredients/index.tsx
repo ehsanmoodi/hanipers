@@ -189,7 +189,7 @@ const Ingredients: React.FC = () => {
           }}
           d="M63.9695 75.6452C42.4462 61.2073 40.6823 13.7289 59.5365 3.55308C77.3691 -6.07136 95.3391 9.44794 90.0975 28.2223C81.1307 60.3398 13.3334 73.8317 1.07872 12.8687"
           stroke="#002147"
-          stroke-width="1.2"
+          strokeWidth="1.2"
         />
       </svg>
       <svg
@@ -211,7 +211,7 @@ const Ingredients: React.FC = () => {
           }}
           d="M33.6488 0.868692C54.1879 17.2731 51.3054 65.3557 31.0624 74.0273C11.9163 82.229 -4.89029 65.0347 2.30995 46.5259C14.6275 14.8628 85.1406 7.00093 91.6332 69.5883"
           stroke="#002147"
-          stroke-width="1.2"
+          strokeWidth="1.2"
         />
       </svg>
       <svg
@@ -247,7 +247,7 @@ const Ingredients: React.FC = () => {
           rx="13.5942"
           transform="rotate(52.9739 58.0815 8.38598)"
           stroke="#002147"
-          stroke-width="1.2"
+          strokeWidth="1.2"
         />
       </svg>
       <svg
@@ -266,7 +266,7 @@ const Ingredients: React.FC = () => {
           rx="14.4"
           transform="rotate(-42.9509 -5.15201 14.4715)"
           stroke="#00BBB4"
-          stroke-width="1.2"
+          strokeWidth="1.2"
         />
       </svg>
     </section>
