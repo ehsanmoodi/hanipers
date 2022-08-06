@@ -170,6 +170,105 @@ const Ingredients: React.FC = () => {
           </motion.div>
         </div>
       </div>
+      <svg
+        className="absolute -top-20 right-20"
+        width="92"
+        height="77"
+        viewBox="0 0 92 77"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <motion.path
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+          d="M63.9695 75.6452C42.4462 61.2073 40.6823 13.7289 59.5365 3.55308C77.3691 -6.07136 95.3391 9.44794 90.0975 28.2223C81.1307 60.3398 13.3334 73.8317 1.07872 12.8687"
+          stroke="#002147"
+          stroke-width="1.2"
+        />
+      </svg>
+      <svg
+        className="absolute -bottom-10 left-1/4"
+        width="93"
+        height="77"
+        viewBox="0 0 93 77"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <motion.path
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+          d="M33.6488 0.868692C54.1879 17.2731 51.3054 65.3557 31.0624 74.0273C11.9163 82.229 -4.89029 65.0347 2.30995 46.5259C14.6275 14.8628 85.1406 7.00093 91.6332 69.5883"
+          stroke="#002147"
+          stroke-width="1.2"
+        />
+      </svg>
+      <svg
+        className="absolute -top-10 left-1/4"
+        width="78"
+        height="71"
+        viewBox="0 0 78 71"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <motion.rect
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 1,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "mirror",
+          }}
+          x="49.8794"
+          y="5.03833"
+          width="28.3884"
+          height="58.6694"
+          rx="14.1942"
+          transform="rotate(52.9739 49.8794 5.03833)"
+          fill="#FFD66F"
+        />
+        <rect
+          x="58.0815"
+          y="8.38598"
+          width="27.1884"
+          height="57.4694"
+          rx="13.5942"
+          transform="rotate(52.9739 58.0815 8.38598)"
+          stroke="#002147"
+          stroke-width="1.2"
+        />
+      </svg>
+      <svg
+        className="absolute -bottom-20 right-1/4"
+        width="53"
+        height="54"
+        viewBox="0 0 53 54"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="-5.15201"
+          y="14.4715"
+          width="28.8"
+          height="60.8"
+          rx="14.4"
+          transform="rotate(-42.9509 -5.15201 14.4715)"
+          stroke="#00BBB4"
+          stroke-width="1.2"
+        />
+      </svg>
     </section>
   );
 };
