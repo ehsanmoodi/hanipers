@@ -170,6 +170,7 @@ const Ingredients: React.FC = () => {
           </motion.div>
         </div>
       </div>
+
       <svg
         className="absolute -top-20 right-20"
         width="92"
@@ -192,8 +193,9 @@ const Ingredients: React.FC = () => {
           strokeWidth="1.2"
         />
       </svg>
+
       <svg
-        className="absolute -bottom-10 left-1/4"
+        className="absolute -bottom-32 left-6 lg:left-1/4"
         width="93"
         height="77"
         viewBox="0 0 93 77"
@@ -214,8 +216,9 @@ const Ingredients: React.FC = () => {
           strokeWidth="1.2"
         />
       </svg>
+
       <svg
-        className="absolute -top-10 left-1/4"
+        className="absolute -top-24 left-1/4"
         width="78"
         height="71"
         viewBox="0 0 78 71"
@@ -250,8 +253,9 @@ const Ingredients: React.FC = () => {
           strokeWidth="1.2"
         />
       </svg>
+
       <svg
-        className="absolute -bottom-20 right-1/4"
+        className="absolute -bottom-20 right-6 lg:right-1/4"
         width="53"
         height="54"
         viewBox="0 0 53 54"

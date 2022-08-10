@@ -88,7 +88,7 @@
 
   &__items {
     @apply hidden;
-    @apply container mx-auto px-4 py-4 lg:px-0;
+    @apply container mx-auto py-4 px-6 lg:px-10 max-w-6xl;
     @apply font-normal text-xl text-white;
     @apply lg:flex gap-4 lg:flex-row items-center lg:gap-10;
   }

@@ -1,6 +1,6 @@
 .footer {
   @apply relative w-screen overflow-x-hidden;
-  @apply pb-5 pt-40 lg:pt-20;
+  @apply pb-5 pt-16 lg:pt-40 xl:pt-32 2xl:pt-48;
   @apply bg-gradient-to-b from-sail to-malibu;
   @apply text-white font-medium;
 
@@ -16,12 +16,8 @@
       width: calc(100% + 16px);
 
       img {
-        object-fit: cover;
-        object-position: right;
-
-        @screen lg {
-          object-fit: fill;
-        }
+        @apply object-contain lg:object-cover;
+        object-position: center top;
       }
     }
   }
@@ -30,6 +26,7 @@
     @apply text-lg;
     @apply flex flex-col gap-4;
     @apply lg:flex-row lg:gap-8;
+    @apply flex-wrap;
 
     &__item {
       @apply flex items-center gap-2;

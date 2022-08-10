@@ -10,8 +10,11 @@
     @apply w-screen overflow-x-hidden;
   }
 
+  body {
+    @apply w-screen overflow-x-hidden;
+  }
+
   main {
-    @apply overflow-x-hidden;
-    @apply pb-12 lg:pb-24;
+    @apply pb-24;
   }
 }

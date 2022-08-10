@@ -52,9 +52,17 @@
     border-top-right-radius: 200px;
     @apply rounded-t-full;
 
+    @media (max-width: 320px) {
+      height: 82%;
+    }
+
     @apply w-full;
-    height: 57.5%;
-    bottom: -7.5%;
+    height: 70%;
+    bottom: -10%;
+
+    @screen md {
+      height: 45%;
+    }
 
     @screen lg {
       @apply rounded-l-full;
@@ -71,6 +79,7 @@
   &__container {
     @apply container mx-auto px-8 lg:px-12;
     @apply relative;
+    @apply max-w-6xl;
 
     &__bg {
       display: none !important;
@@ -103,6 +112,7 @@
     @apply w-full;
     @apply flex flex-col gap-3 items-center;
     @apply text-center lg:text-start lg:items-start;
+    @apply md:px-20 lg:px-0;
 
     &__title {
       @apply relative;

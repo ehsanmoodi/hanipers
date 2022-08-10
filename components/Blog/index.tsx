@@ -105,7 +105,7 @@ const Blog: React.FC = () => {
       </div>
 
       <svg
-        className="absolute -top-28 left-32"
+        className="absolute -top-28 left-6 lg:left-32 scale-50 lg:scale-100"
         width="99"
         height="104"
         viewBox="0 0 99 104"
@@ -126,6 +126,7 @@ const Blog: React.FC = () => {
           strokeWidth="1.2"
         />
       </svg>
+
       <svg
         className="absolute -bottom-20 right-20"
         width="59"
@@ -148,8 +149,9 @@ const Blog: React.FC = () => {
           strokeWidth="1.2"
         />
       </svg>
+
       <svg
-        className="absolute right-32 -top-10"
+        className="absolute right-6 lg:right-32 -top-10"
         width="74"
         height="66"
         viewBox="0 0 74 66"

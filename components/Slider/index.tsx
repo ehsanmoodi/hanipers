@@ -52,7 +52,8 @@ const Slider: React.FC = () => {
                     and vanilla cream
                   </p>
                   <span className="slide__info__flavor">
-                    <span>CAKE WITH</span> <br /> VANILLA CREAM
+                    <span>CAKE WITH</span> <br /> VANILLA CREAM{" "}
+                    <span className="invisible">CREAM</span>
                   </span>
                 </div>
               </div>
