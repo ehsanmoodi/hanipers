@@ -181,7 +181,7 @@ const Hero: React.FC = () => {
             </svg>
           </span>
           <span className="index-hero__info__second-txt">
-            CAKE WITH DIFFERENT FILLING
+            LIGHT CAKE WITH LIGHT CREAM
             <svg
               className="absolute -right-20 -top-7"
               width="310"

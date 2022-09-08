@@ -47,9 +47,9 @@ const Slider: React.FC = () => {
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
                   <p className="slide__info__txt">
-                    Extremely fluffy, rich and creamy texture With three
-                    different and unique fillings of peanut butter, chocolate
-                    and vanilla cream
+                    Extremely spongy, rich and creamy texture with three
+                    different and unique peanut butter, chocolate and vanilla
+                    cream fillings
                   </p>
                   <span className="slide__info__flavor">
                     <span>CAKE WITH</span> <br /> VANILLA CREAM{" "}
@@ -79,9 +79,9 @@ const Slider: React.FC = () => {
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
                   <p className="slide__info__txt">
-                    Extremely fluffy, rich and creamy texture With three
-                    different and unique fillings of peanut butter, chocolate
-                    and vanilla cream
+                    Extremely spongy, rich and creamy texture with three
+                    different and unique peanut butter, chocolate and vanilla
+                    cream fillings
                   </p>
                   <span className="slide__info__flavor">
                     <span>CAKE WITH</span> <br /> PEANUT BUTTER CREAM
@@ -110,9 +110,9 @@ const Slider: React.FC = () => {
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
                   <p className="slide__info__txt">
-                    Extremely fluffy, rich and creamy texture With three
-                    different and unique fillings of peanut butter, chocolate
-                    and vanilla cream
+                    Extremely spongy, rich and creamy texture with three
+                    different and unique peanut butter, chocolate and vanilla
+                    cream fillings
                   </p>
                   <span className="slide__info__flavor">
                     <span>CAKE WITH</span> <br /> MILK CHOCOLATE CREAM

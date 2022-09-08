@@ -77,7 +77,7 @@ const Ingredients: React.FC = () => {
   return (
     <section id="ingredients" className="ingredients">
       <div className="ingredients__info">
-        <H2>INGREDIENTS HANIPERS</H2>
+        <H2>ABOUT HANIPERS</H2>
         <p className="ingredients__info__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
@@ -150,7 +150,7 @@ const Ingredients: React.FC = () => {
         </motion.svg>
         <div className="ingredients__img__flavors">
           <span className="ingredients__img__flavors__title">
-            CAKE WITH <span>DIFFERENT</span> FILLING
+            LIGHT CAKE <span>WITH</span> LIGHT CREAM
           </span>
           <motion.div
             variants={thumbsVariant}

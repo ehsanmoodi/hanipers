@@ -13,19 +13,19 @@ import Image from "next/image";
 
 const Footer: React.FC = () => {
   const socials = [
-    {
-      id: "telegram",
-      href: "https://t.me/hanipers",
-      icon: <Telegram />,
-    },
-    {
-      id: "whatsapp",
-      href: "https://wa.me/09901234567",
-      icon: <Whatsapp />,
-    },
+    // {
+    //   id: "telegram",
+    //   href: "https://t.me/hanipers",
+    //   icon: <Telegram />,
+    // },
+    // {
+    //   id: "whatsapp",
+    //   href: "https://wa.me/09901234567",
+    //   icon: <Whatsapp />,
+    // },
     {
       id: "instagram",
-      href: "https://instagram.com/hanipers",
+      href: "https://instagram.com/hanipers_official",
       icon: <Instagram />,
     },
   ];
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
       </motion.div>
       <div className="container relative mx-auto flex flex-col gap-5 px-6 lg:px-10 max-w-6xl">
         <div className="footer__contact">
-          <span className="footer__contact__item">
+          {/* <span className="footer__contact__item">
             <Address />
             Lorem ipsum dolor sit amet, consectetur adipiscing
           </span>
@@ -60,7 +60,12 @@ const Footer: React.FC = () => {
           <a href="tel:09901234567" className="footer__contact__item">
             <Call />
             (990)123-4567
-          </a>
+          </a> */}
+
+          <div className="footer__copy-right">
+            <p>© {new Date().getFullYear()} Hanipers. All rights reserved.</p>
+          </div>
+
           <ul className="footer__contact__socials">
             {socials.map((item) => (
               <li key={item.id}>
@@ -69,13 +74,7 @@ const Footer: React.FC = () => {
             ))}
           </ul>
         </div>
-        <hr />
-        <div className="footer__copy-right">
-          <p>© {new Date().getFullYear()} Hanipers. All rights reserved.</p>
-          {/* <p>
-            Designed & Developed by <a href="https://instagram.com/moodistudio">MoodiStudio</a>
-          </p> */}
-        </div>
+        {/* <hr /> */}
       </div>
     </footer>
   );

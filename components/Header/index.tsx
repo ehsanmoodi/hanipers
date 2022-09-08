@@ -9,19 +9,19 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   const socials = [
-    {
-      id: "telegram",
-      href: "https://t.me/hanipers",
-      icon: <Telegram />,
-    },
-    {
-      id: "whatsapp",
-      href: "https://wa.me/09901234567",
-      icon: <Whatsapp />,
-    },
+    // {
+    //   id: "telegram",
+    //   href: "https://t.me/hanipers",
+    //   icon: <Telegram />,
+    // },
+    // {
+    //   id: "whatsapp",
+    //   href: "https://wa.me/09901234567",
+    //   icon: <Whatsapp />,
+    // },
     {
       id: "instagram",
-      href: "https://instagram.com/hanipers",
+      href: "https://instagram.com/hanipers_official",
       icon: <Instagram />,
     },
   ];
@@ -33,19 +33,19 @@ const Header: React.FC = () => {
   const headerItems = [
     {
       id: "ingredients",
-      label: "Ingredients",
+      label: "About Hanipers",
     },
     {
       id: "about",
-      label: "About Product",
+      label: "World of Hanipers",
     },
     {
       id: "blog",
-      label: "Blog",
+      label: "Explore",
     },
     {
       id: "footer",
-      label: "Contact Us",
+      label: "Contact to the Haniper's world",
     },
   ];
 
