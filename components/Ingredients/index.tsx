@@ -79,33 +79,32 @@ const Ingredients: React.FC = () => {
       <div className="ingredients__info">
         <H2>ABOUT HANIPERS</H2>
         <p className="ingredients__info__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt.
+          There is a light surprise hidden in each bite.
         </p>
         <ul className="ingredients__info__list">
           <li>
             <span>
               <i>1</i>
             </span>
-            Deliciously Sweet Creamy Filling
+            Light spongy cake for breakfast & snack times
           </li>
           <li>
             <span>
               <i>2</i>
             </span>
-            A Delightful On-The-Go Snack
+            Same taste & delight with less amount of calories
           </li>
           <li>
             <span>
               <i>3</i>
             </span>
-            Perfect For Any Time Of Day
+            Great amount of cream filled every cut
           </li>
           <li>
             <span>
               <i>4</i>
             </span>
-            Soft Golden Sponge Cake
+            Light whipped cream as creamy pastries
           </li>
         </ul>
       </div>

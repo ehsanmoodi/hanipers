@@ -64,6 +64,7 @@
     }
 
     &__list {
+      @apply lg:max-w-xs;
       @apply mt-8;
       @apply font-normal;
       @apply text-xl;
@@ -78,19 +79,13 @@
 
         span {
           @apply rounded-full;
-          // @apply bg-black;
 
           i {
             @apply relative;
             @apply flex items-center justify-center;
-            @apply w-12 h-12 rounded-full bg-RobinEggBlue bg-opacity-20;
+            @apply w-12 h-12 xl:w-14 xl:h-14 rounded-full bg-RobinEggBlue bg-opacity-20;
             @apply text-RobinEggBlue text-2xl xl:text-3xl font-bold;
             @apply not-italic;
-
-            @screen xl {
-              width: 54px;
-              height: 54px;
-            }
           }
         }
       }

@@ -45,7 +45,7 @@ const Header: React.FC = () => {
     },
     {
       id: "footer",
-      label: "Contact to the Haniper's world",
+      label: "Contact to the Hanipers’ world",
     },
   ];
 
