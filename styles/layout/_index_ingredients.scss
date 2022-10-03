@@ -5,14 +5,22 @@
   @apply flex flex-col xl:flex-row items-center justify-between gap-14 xl:gap-20;
   @apply px-6 lg:px-10 max-w-6xl;
 
-  &__img {
+  &__video {
     @apply order-1 xl:order-2;
     @apply max-w-md;
     @apply relative;
 
     &__svg {
-      @apply absolute -rotate-45 bottom-36 -left-12 scale-75;
-      @apply xl:rotate-0 xl:scale-100 xl:bottom-40 xl:-left-32;
+      @apply absolute -rotate-45 bottom-28 -left-12 scale-75;
+      @apply xl:rotate-0 xl:scale-100 xl:bottom-32 xl:-left-24;
+    }
+
+    &__toggle {
+      @apply flex items-center justify-center;
+      @apply absolute inset-0 m-auto;
+      @apply w-20 h-20 rounded-full;
+      @apply border border-white;
+      @apply backdrop-blur-sm;
     }
 
     &__flavors {
@@ -22,7 +30,7 @@
       box-shadow: 42px 42px 50px rgba(0, 0, 0, 0.06);
       border-radius: 500px;
 
-      @apply xl:absolute bottom-10 -left-72;
+      @apply xl:absolute bottom-0 -left-72;
 
       &__title {
         @apply text-lg font-bold text-white;
