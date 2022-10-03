@@ -10,7 +10,8 @@ const Hero: React.FC = () => {
   return (
     <section className="index-hero">
       <motion.div
-        className="absolute inset-0 h-full w-full"
+        className="absolute inset-0 h-full -left-2"
+        style={{ width: "calc(100% + 16px)" }}
         initial={{ x: -8 }}
         animate={{
           x: 8,
