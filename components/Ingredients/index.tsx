@@ -2,6 +2,7 @@ import ingredientFeatureImage from "../../public/images/ingredients-feature.png"
 import vanilaFlavorThumb from "../../public/images/falvors-thumbs/vanila.png";
 import almondFlavorThumb from "../../public/images/falvors-thumbs/almonds.png";
 import choclateFlavorThumb from "../../public/images/falvors-thumbs/choclate.png";
+import lightCakeImage from "../../public/images/light-cake.png";
 
 import Image from "next/image";
 import H2 from "../H2";
@@ -115,13 +116,18 @@ const Ingredients: React.FC = () => {
           </ul>
         </div>
         <div className="ingredients__video">
-          <Image src={ingredientFeatureImage} />
-          <button
-            onClick={() => setShowVideo(!showVideo)}
-            className="ingredients__video__toggle"
-          >
-            <PlayBtn />
-          </button>
+          <div className="ingredients__video__poster">
+            <Image src={ingredientFeatureImage} />
+            <button
+              onClick={() => setShowVideo(!showVideo)}
+              className="ingredients__video__toggle"
+            >
+              <PlayBtn />
+            </button>
+          </div>
+          <span className="ingredients__video__light-cake">
+            <Image src={lightCakeImage} />
+          </span>
           <motion.svg
             className="ingredients__video__svg"
             width="167"

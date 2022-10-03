@@ -10,6 +10,15 @@
     @apply max-w-md;
     @apply relative;
 
+    &__poster {
+      @apply relative;
+    }
+
+    &__light-cake {
+      @apply scale-75 lg:scale-100;
+      @apply absolute -right-8 -top-4 lg:-right-14 lg:top-8;
+    }
+
     &__svg {
       @apply absolute -rotate-45 bottom-28 -left-12 scale-75;
       @apply xl:rotate-0 xl:scale-100 xl:bottom-32 xl:-left-24;
