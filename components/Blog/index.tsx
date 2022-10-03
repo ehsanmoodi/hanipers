@@ -1,6 +1,6 @@
-import blogImage1 from "../../public/images/blog/blog-image-1.png";
-import blogImage2 from "../../public/images/blog/blog-image-2.png";
-import blogImage3 from "../../public/images/blog/blog-image-3.png";
+import blogImage1 from "../../public/images/blog/blog-image-1.jpg";
+import blogImage2 from "../../public/images/blog/blog-image-2.jpg";
+import blogImage3 from "../../public/images/blog/blog-image-3.jpg";
 
 import BlogItem from "../BlogItem";
 import H2 from "../H2";
