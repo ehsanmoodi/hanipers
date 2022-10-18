@@ -5,8 +5,11 @@ import cloudsImg from "../../public/images/hero/clouds.png";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from "next-i18next";
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation("hero");
+
   return (
     <section className="index-hero">
       <motion.div
@@ -62,7 +65,7 @@ const Hero: React.FC = () => {
         initial={{ y: "100", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 5.5, duration: 1, ease: "linear" }}
-        className="absolute left-1/4 hidden lg:block bottom-0 z-10"
+        className="absolute left-1/4 rtl:right-1/4 hidden lg:block bottom-0 z-10"
         width="372"
         height="249"
         viewBox="0 0 372 249"
@@ -107,9 +110,7 @@ const Hero: React.FC = () => {
           transition={{ delay: 1.5, duration: 1 }}
           className="index-hero__info"
         >
-          <span className="index-hero__info__first-txt">
-            TRAVEL TO THE WORLD OF
-          </span>
+          <span className="index-hero__info__first-txt">{t("title")}</span>
           <span className="index-hero__info__logo">
             <Image src={hanipersImg} />
             <svg
@@ -182,7 +183,7 @@ const Hero: React.FC = () => {
             </svg>
           </span>
           <span className="index-hero__info__second-txt">
-            LIGHT CAKE WITH LIGHT CREAM
+            {t("subtitle")}
             <svg
               className="absolute -right-20 -top-7"
               width="310"
