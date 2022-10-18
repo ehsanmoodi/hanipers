@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      calibri: ["calibri"],
+      calibri: ["calibri", "IRANSansX"],
     },
     extend: {
       colors: {

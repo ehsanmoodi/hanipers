@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
 import { Close, PlayBtn } from "../../icons";
 import { Dialog, Transition } from "@headlessui/react";
+import { useTranslation } from "next-i18next";
 
 const arrowVariant = {
   hidden: { opacity: 1 },
@@ -78,40 +79,40 @@ const thumbsImgVariant = {
 };
 
 const Ingredients: React.FC = () => {
+  const { t } = useTranslation("ingredients");
+
   const [showVideo, setShowVideo] = useState(false);
 
   return (
     <>
       <section id="ingredients" className="ingredients">
         <div className="ingredients__info">
-          <H2>ABOUT HANIPERS</H2>
-          <p className="ingredients__info__text">
-            There is a light surprise hidden in each bite.
-          </p>
+          <H2>{t("title")}</H2>
+          <p className="ingredients__info__text">{t("subtitle")}</p>
           <ul className="ingredients__info__list">
             <li>
               <span>
                 <i>1</i>
               </span>
-              Light spongy cake for breakfast & snack times
+              {t("items.first")}
             </li>
             <li>
               <span>
                 <i>2</i>
               </span>
-              Same taste & delight with less amount of calories
+              {t("items.second")}
             </li>
             <li>
               <span>
                 <i>3</i>
               </span>
-              Great amount of cream filled every cut
+              {t("items.third")}
             </li>
             <li>
               <span>
                 <i>4</i>
               </span>
-              Light whipped cream as creamy pastries
+              {t("items.fourth")}
             </li>
           </ul>
         </div>
