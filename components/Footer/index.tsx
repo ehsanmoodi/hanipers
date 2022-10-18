@@ -10,8 +10,11 @@ import {
 import SocialIcon from "../SocialIcon";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation("footer");
+
   const socials = [
     // {
     //   id: "telegram",
@@ -63,7 +66,7 @@ const Footer: React.FC = () => {
           </a> */}
 
           <div className="footer__copy-right">
-            <p>© {new Date().getFullYear()} Hanipers. All rights reserved.</p>
+            <p>© {t("copy-right")}</p>
           </div>
 
           <ul className="footer__contact__socials">

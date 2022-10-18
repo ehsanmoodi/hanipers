@@ -43,7 +43,7 @@
     }
 
     &__socials {
-      @apply flex gap-3 self-center lg:ml-auto;
+      @apply flex gap-3 self-center lg:ml-auto rtl:lg:mr-auto rtl:lg:ml-0;
     }
   }
 

@@ -6,8 +6,12 @@ import SocialIcon from "../SocialIcon";
 import headerLogo from "../../public/images/header/logo.png";
 import Link from "next/link";
 import Image from "next/image";
+import LanguageSwitcher from "../LanguageSwitcher";
+import { useTranslation } from "next-i18next";
 
 const Header: React.FC = () => {
+  const { t } = useTranslation("header");
+
   const socials = [
     // {
     //   id: "telegram",
@@ -33,19 +37,19 @@ const Header: React.FC = () => {
   const headerItems = [
     {
       id: "ingredients",
-      label: "About Hanipers",
+      label: t("about"),
     },
     {
       id: "about",
-      label: "World of Hanipers",
+      label: t("world"),
     },
     {
       id: "blog",
-      label: "Explore",
+      label: t("explore"),
     },
     {
       id: "footer",
-      label: "Contact to the Hanipers’ world",
+      label: t("contact"),
     },
   ];
 
@@ -158,6 +162,8 @@ const Header: React.FC = () => {
             </a>
           </li>
         ))}
+
+        <LanguageSwitcher />
 
         <ul className="footer__contact__socials">
           {socials.map((item) => (
