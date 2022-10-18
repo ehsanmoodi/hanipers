@@ -6,6 +6,7 @@ import BlogItem from "../BlogItem";
 import H2 from "../H2";
 import { motion, useAnimationControls, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { useTranslation } from "next-i18next";
 
 const blogItems = [
   {
@@ -14,7 +15,7 @@ const blogItems = [
       src: blogImage1,
       alt: "",
     },
-    title: "It’s time to take a bite and get ready for the journey",
+    title: "",
     date: "20 oct 2021",
     views: 14,
     href: "#",
@@ -25,7 +26,7 @@ const blogItems = [
       src: blogImage2,
       alt: "",
     },
-    title: "Hanipers; The great sense of lightness and pleasuring",
+    title: "",
     date: "20 oct 2021",
     views: 14,
     href: "#",
@@ -36,7 +37,7 @@ const blogItems = [
       src: blogImage3,
       alt: "",
     },
-    title: "Flying without wings as light as a little piece of cloud",
+    title: "",
     date: "20 oct 2021",
     views: 14,
     href: "#",
@@ -69,6 +70,44 @@ const blogItemVariant = {
 const MotionBlogItem = motion(BlogItem);
 
 const Blog: React.FC = () => {
+  const { t } = useTranslation("blog");
+
+  const blogItems = [
+    {
+      id: 1,
+      image: {
+        src: blogImage1,
+        alt: t("items.first.title"),
+      },
+      title: t("items.first.title"),
+      date: t("items.first.date"),
+      views: t("items.first.views"),
+      href: "#",
+    },
+    {
+      id: 2,
+      image: {
+        src: blogImage2,
+        alt: t("items.second.title"),
+      },
+      title: t("items.second.title"),
+      date: t("items.second.date"),
+      views: t("items.second.views"),
+      href: "#",
+    },
+    {
+      id: 3,
+      image: {
+        src: blogImage3,
+        alt: t("items.third.title"),
+      },
+      title: t("items.third.title"),
+      date: t("items.third.date"),
+      views: t("items.second.views"),
+      href: "#",
+    },
+  ];
+
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -89,7 +128,7 @@ const Blog: React.FC = () => {
       id="blog"
       ref={ref}
     >
-      <H2>OUR BLOG</H2>
+      <H2>{t("title")}</H2>
       <div className="index-blog__container">
         {blogItems.map((item) => (
           <MotionBlogItem
