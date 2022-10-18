@@ -7,6 +7,6 @@ export interface BlogItemProps {
   };
   title: string;
   date: string;
-  views: number;
+  views: string;
   href: string;
 }

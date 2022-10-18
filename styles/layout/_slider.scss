@@ -73,6 +73,13 @@
       width: 51%;
       height: 115%;
       bottom: -7.5%;
+
+      [dir="rtl"] & {
+        right: unset;
+        @apply left-0;
+        @apply rounded-l-none;
+        @apply rounded-r-full;
+      }
     }
   }
 
@@ -86,6 +93,10 @@
 
       @screen lg {
         display: block !important;
+
+        [dir="rtl"] & {
+          transform: scale(-1, 1);
+        }
       }
     }
   }

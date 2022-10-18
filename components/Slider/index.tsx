@@ -10,12 +10,17 @@ import peanutCakeBgPattern from "../../public/images/slider/peanut-bg-pattern.pn
 
 import choclateCakeImage from "../../public/images/slider/choclate.png";
 import choclateCakeBgPattern from "../../public/images/slider/choclate-bg-pattern.png";
+import { useTranslation } from "next-i18next";
 
 const Slider: React.FC = () => {
+  const { t } = useTranslation("slider");
+
   return (
     <>
       <Swiper
         id="about"
+        observer={true}
+        observeParents={true}
         modules={[Pagination, Autoplay, EffectFade]}
         effect={"fade"}
         grabCursor={true}
@@ -46,11 +51,7 @@ const Slider: React.FC = () => {
                 </div>
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
-                  <p className="slide__info__txt">
-                    Extremely spongy, rich and creamy texture with three
-                    different and unique peanut butter, chocolate and vanilla
-                    cream fillings
-                  </p>
+                  <p className="slide__info__txt">{t("description")}</p>
                   <span className="slide__info__flavor">
                     <span>CAKE WITH</span> <br /> VANILLA CREAM{" "}
                     <span className="invisible">CREAM</span>
@@ -78,11 +79,7 @@ const Slider: React.FC = () => {
                 </div>
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
-                  <p className="slide__info__txt">
-                    Extremely spongy, rich and creamy texture with three
-                    different and unique peanut butter, chocolate and vanilla
-                    cream fillings
-                  </p>
+                  <p className="slide__info__txt">{t("description")}</p>
                   <span className="slide__info__flavor">
                     <span>CAKE WITH</span> <br /> PEANUT BUTTER CREAM
                   </span>
@@ -109,11 +106,7 @@ const Slider: React.FC = () => {
                 </div>
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
-                  <p className="slide__info__txt">
-                    Extremely spongy, rich and creamy texture with three
-                    different and unique peanut butter, chocolate and vanilla
-                    cream fillings
-                  </p>
+                  <p className="slide__info__txt">{t("description")}</p>
                   <span className="slide__info__flavor">
                     <span>CAKE WITH</span> <br /> MILK CHOCOLATE CREAM
                   </span>

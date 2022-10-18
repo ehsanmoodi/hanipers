@@ -1,3 +1,4 @@
+import { useTranslation } from "next-i18next";
 import Image from "next/image";
 import Link from "next/link";
 import { forwardRef, Ref } from "react";
@@ -6,6 +7,8 @@ import type { BlogItemProps } from "./types";
 
 const BlogItem: React.FC<BlogItemProps> = forwardRef(
   ({ image, title, date, views, href }, ref: Ref<HTMLDivElement>) => {
+    const { t } = useTranslation("common");
+
     return (
       <article ref={ref} className="blog-itm">
         <div className="blog-itm__image__container">
@@ -26,7 +29,9 @@ const BlogItem: React.FC<BlogItemProps> = forwardRef(
           </Link>
           <div className="blog-itm__detail__meta">
             <span className="date">{date}</span>
-            <span className="views">{views} View</span>
+            <span className="views">
+              {views} {t("view")}
+            </span>
           </div>
         </div>
       </article>

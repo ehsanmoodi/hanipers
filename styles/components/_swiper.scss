@@ -9,6 +9,11 @@
 
   @screen lg {
     left: 1rem !important;
+
+    [dir="rtl"] & {
+      left: unset;
+      right: 1rem !important;
+    }
   }
 }
 

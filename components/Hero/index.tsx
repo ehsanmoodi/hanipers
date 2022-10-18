@@ -185,7 +185,7 @@ const Hero: React.FC = () => {
           <span className="index-hero__info__second-txt">
             {t("subtitle")}
             <svg
-              className="absolute -right-20 -top-7"
+              className="absolute -right-20 -top-7 rtl:-top-5"
               width="310"
               height="207"
               viewBox="0 0 310 207"
