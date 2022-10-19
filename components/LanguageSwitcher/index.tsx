@@ -20,9 +20,7 @@ const LanguageSwitcher: React.FC = () => {
         as={asPath}
         locale={locale === "en" ? "fa" : "en"}
       >
-        <a className="language-switcher">
-          {locale === "en" ? <Farsi /> : <English />}
-        </a>
+        <a className="language-switcher">{locale === "en" ? "FA" : "EN"}</a>
       </Link>
     </li>
   );
