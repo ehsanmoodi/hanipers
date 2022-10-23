@@ -3,15 +3,17 @@ import vanilaFlavorThumb from "../../public/images/falvors-thumbs/vanila.png";
 import almondFlavorThumb from "../../public/images/falvors-thumbs/almonds.png";
 import choclateFlavorThumb from "../../public/images/falvors-thumbs/choclate.png";
 import lightCakeImage from "../../public/images/light-cake.png";
+import lightCakeImageRTL from "../../public/images/light-cake-rtl.png";
 
 import Image from "next/image";
 import H2 from "../H2";
 
 import { motion } from "framer-motion";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Close, PlayBtn } from "../../icons";
 import { Dialog, Transition } from "@headlessui/react";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 const arrowVariant = {
   hidden: { opacity: 1 },
@@ -79,7 +81,12 @@ const thumbsImgVariant = {
 };
 
 const Ingredients: React.FC = () => {
+  const { locale } = useRouter();
   const { t } = useTranslation("ingredients");
+
+  useEffect(() => {
+    console.log(locale);
+  }, []);
 
   const [showVideo, setShowVideo] = useState(false);
 
@@ -127,7 +134,7 @@ const Ingredients: React.FC = () => {
             </button>
           </div>
           <span className="ingredients__video__light-cake">
-            <Image src={lightCakeImage} />
+            <Image src={locale === "en" ? lightCakeImage : lightCakeImageRTL} />
           </span>
           <motion.svg
             className="ingredients__video__svg"
@@ -167,9 +174,15 @@ const Ingredients: React.FC = () => {
             />
           </motion.svg>
           <div className="ingredients__video__flavors">
-            <span className="ingredients__video__flavors__title">
-              LIGHT CAKE <span>WITH</span> LIGHT CREAM
-            </span>
+            {locale === "en" ? (
+              <span className="ingredients__video__flavors__title">
+                LIGHT CAKE <span>WITH</span> LIGHT CREAM
+              </span>
+            ) : (
+              <span className="ingredients__video__flavors__title">
+                لایت کیک <span>با</span> لایت کرم
+              </span>
+            )}
             <motion.div
               variants={thumbsVariant}
               initial="hidden"

@@ -1,13 +1,16 @@
 import airplaneImg from "../../public/images/hero/airplane.png";
 import hanipersImg from "../../public/images/hero/hanipers.png";
 import lightBadgeImg from "../../public/images/hero/light.png";
+import lightBadgeImgRTL from "../../public/images/hero/light-rtl.png";
 import cloudsImg from "../../public/images/hero/clouds.png";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 const Hero: React.FC = () => {
+  const { locale } = useRouter();
   const { t } = useTranslation("hero");
 
   return (
@@ -145,7 +148,7 @@ const Hero: React.FC = () => {
             </svg>
           </span>
           <span className="index-hero__info___badge">
-            <Image src={lightBadgeImg} />
+            <Image src={locale === "en" ? lightBadgeImg : lightBadgeImgRTL} />
             <svg
               className="absolute top-20 left-10"
               width="268"
@@ -185,7 +188,7 @@ const Hero: React.FC = () => {
           <span className="index-hero__info__second-txt">
             {t("subtitle")}
             <svg
-              className="absolute -right-20 -top-7 rtl:-top-5"
+              className="absolute -right-20 -top-7 rtl:-top-2"
               width="310"
               height="207"
               viewBox="0 0 310 207"

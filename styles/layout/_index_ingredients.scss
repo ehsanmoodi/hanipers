@@ -98,7 +98,7 @@
       @apply lg:max-w-xs;
       @apply mt-8;
       @apply font-normal;
-      @apply text-xl;
+      @apply text-xl rtl:text-lg;
       @apply flex flex-col gap-6;
 
       @screen xl {

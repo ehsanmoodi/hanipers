@@ -11,8 +11,10 @@ import peanutCakeBgPattern from "../../public/images/slider/peanut-bg-pattern.pn
 import choclateCakeImage from "../../public/images/slider/choclate.png";
 import choclateCakeBgPattern from "../../public/images/slider/choclate-bg-pattern.png";
 import { useTranslation } from "next-i18next";
+import { useRouter } from "next/router";
 
 const Slider: React.FC = () => {
+  const { locale } = useRouter();
   const { t } = useTranslation("slider");
 
   return (
@@ -52,10 +54,12 @@ const Slider: React.FC = () => {
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
                   <p className="slide__info__txt">{t("description")}</p>
-                  <span className="slide__info__flavor">
-                    <span>CAKE WITH</span> <br /> VANILLA CREAM{" "}
-                    <span className="invisible">CREAM</span>
-                  </span>
+                  {locale === "en" && (
+                    <span className="slide__info__flavor">
+                      <span>CAKE WITH</span> <br /> VANILLA CREAM{" "}
+                      <span className="invisible">CREAM</span>
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
@@ -80,9 +84,11 @@ const Slider: React.FC = () => {
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
                   <p className="slide__info__txt">{t("description")}</p>
-                  <span className="slide__info__flavor">
-                    <span>CAKE WITH</span> <br /> PEANUT BUTTER CREAM
-                  </span>
+                  {locale === "en" && (
+                    <span className="slide__info__flavor">
+                      <span>CAKE WITH</span> <br /> PEANUT BUTTER CREAM
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
@@ -107,9 +113,11 @@ const Slider: React.FC = () => {
                 <div className="slide__info">
                   <h3 className="slide__info__title">Hanipers</h3>
                   <p className="slide__info__txt">{t("description")}</p>
-                  <span className="slide__info__flavor">
-                    <span>CAKE WITH</span> <br /> MILK CHOCOLATE CREAM
-                  </span>
+                  {locale === "en" && (
+                    <span className="slide__info__flavor">
+                      <span>CAKE WITH</span> <br /> MILK CHOCOLATE CREAM
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
