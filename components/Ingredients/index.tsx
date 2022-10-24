@@ -84,10 +84,6 @@ const Ingredients: React.FC = () => {
   const { locale } = useRouter();
   const { t } = useTranslation("ingredients");
 
-  useEffect(() => {
-    console.log(locale);
-  }, []);
-
   const [showVideo, setShowVideo] = useState(false);
 
   return (
@@ -335,7 +331,7 @@ const Ingredients: React.FC = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-11/12 max-w-full max-h-screen transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full lg:w-8/12 max-w-full max-h-screen transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all">
                   <button
                     onClick={() => setShowVideo(false)}
                     className="absolute z-50 bg-white rounded-full shadow-xl p-3 left-7 top-7 hover:rotate-90 transition-transform"

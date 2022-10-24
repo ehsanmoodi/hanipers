@@ -100,7 +100,7 @@ const Header: React.FC = () => {
     <header
       className={`header ${menuOpen ? "open" : ""} ${scroll ? "scrolled" : ""}`}
     >
-      <div className="flex itesm-centet justify-between lg:hidden">
+      <div className="flex items-center justify-between lg:hidden">
         <button onClick={toggleMenu} className="header__toggle">
           <svg
             width="26"

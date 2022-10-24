@@ -1,6 +1,7 @@
 .slider {
   @apply py-12;
   @apply mt-16 lg:mt-40;
+  @apply relative;
 }
 
 .slide {

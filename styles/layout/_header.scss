@@ -70,6 +70,7 @@
       @apply lg:hidden;
       @apply max-h-4;
       @apply ml-auto;
+      @apply rtl:mr-auto rtl:ml-0;
 
       img {
         @apply max-h-4;
