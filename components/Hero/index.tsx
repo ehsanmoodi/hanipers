@@ -1,4 +1,5 @@
 import airplaneImg from "../../public/images/hero/airplane.png";
+import airplaneImgRTL from "../../public/images/hero/airplane-rtl.png";
 import hanipersImg from "../../public/images/hero/hanipers.png";
 import lightBadgeImg from "../../public/images/hero/light.png";
 import lightBadgeImgRTL from "../../public/images/hero/light-rtl.png";
@@ -100,15 +101,17 @@ const Hero: React.FC = () => {
 
       <div className="index-hero__container">
         <motion.div
-          initial={{ scale: 0, x: "-100%" }}
+          initial={
+            locale === "en" ? { scale: 0, x: "-100%" } : { scale: 0, x: "100%" }
+          }
           animate={{ scale: 1, x: 0 }}
           transition={{ delay: 1.5, duration: 4, ease: "linear" }}
           className="index-hero__img"
         >
-          <Image src={airplaneImg} />
+          <Image src={locale === "en" ? airplaneImg : airplaneImgRTL} />
         </motion.div>
         <motion.div
-          initial={{ x: "100vw" }}
+          initial={locale === "en" ? { x: "100vw" } : { x: "-100vw" }}
           animate={{ x: 0 }}
           transition={{ delay: 1.5, duration: 1 }}
           className="index-hero__info"
