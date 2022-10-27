@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
           <span className="index-hero__info__logo">
             <Image src={hanipersImg} />
             <svg
-              className="absolute -top-5 -right-36"
+              className="absolute -top-5 -right-36 rtl:right-36"
               width="302"
               height="227"
               viewBox="0 0 302 227"
