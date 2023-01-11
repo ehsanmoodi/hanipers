@@ -1,0 +1,21 @@
+.blog {
+  @apply relative;
+  @apply pt-24 pb-20 lg:pt-36 lg:pb-20;
+  @apply flex flex-col gap-10;
+
+  &__pattern {
+    @apply absolute top-0 -left-2;
+    width: calc(100% + 16px);
+  }
+
+  &__title {
+    @apply shrink-0;
+    @apply px-4 py-1 max-w-6xl mx-auto text-center text-4xl lg:text-5xl font-bold;
+  }
+
+  &__content {
+    @apply container mx-auto max-w-6xl px-4;
+    @apply flex flex-col gap-8;
+    @apply md:grid md:grid-cols-2 lg:grid-cols-3;
+  }
+}

@@ -22,6 +22,10 @@ module.exports = {
         irishCoffee: "#672F25",
         torchRed: "#EA0029",
         superNova: "#FFCB05",
+        mercury: "#e5e5e5",
+        goldenrod: "#FFD66F",
+        concrete: "#F3F3F3",
+        gallery: "#EEEEEE",
       },
       keyframes: {
         "bounce-horizontal": {

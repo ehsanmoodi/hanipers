@@ -12,6 +12,7 @@
 @import "./components/blog_itm";
 @import "./components/swiper";
 @import "./components/language_switcher";
+@import "./components/pagination";
 
 // layout
 @import "./layout/header";
@@ -24,3 +25,5 @@
 // templates
 
 // pages
+@import "./pages/blog";
+@import "./pages/single";
