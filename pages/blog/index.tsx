@@ -65,6 +65,7 @@ const Blog: NextPage<
           initial={{ x: -8 }}
           animate={{
             x: 8,
+            opacity: 1,
             transition: {
               ease: "linear",
               repeat: Infinity,
@@ -72,6 +73,7 @@ const Blog: NextPage<
               repeatType: "mirror",
             },
           }}
+          exit={{ opacity: 0 }}
           className="blog__pattern"
         >
           <Image
@@ -96,6 +98,7 @@ const Blog: NextPage<
           variants={blogItemsVariant}
           initial="hidden"
           whileInView="visible"
+          viewport={{ margin: "0px", amount: "some" }}
           exit="exit"
           className="blog__content"
         >
@@ -145,6 +148,90 @@ const Blog: NextPage<
             <a href="#" className="next"></a>
           </li>
         </motion.ul> */}
+
+        <svg
+          className="absolute -z-10 bottom-14 left-0"
+          xmlns="http://www.w3.org/2000/svg"
+          width="98"
+          height="93"
+          fill="none"
+        >
+          <motion.path
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
+            stroke="#002147"
+            strokeWidth="1.2"
+            d="M97 33.289C70.87 19.67 22.299 43.334 22.299 67.479c0 22.836 25.29 32.351 41.283 17.104C90.939 58.5 67.773-15.957 0 4.52"
+          />
+        </svg>
+
+        <svg
+          className="absolute -z-10 top-1/2 right-10"
+          xmlns="http://www.w3.org/2000/svg"
+          width="82"
+          height="73"
+          fill="none"
+        >
+          <motion.rect
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              duration: 1,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatType: "mirror",
+            }}
+            width="33.05"
+            height="68.297"
+            fill="#FFD66F"
+            rx="16.525"
+            transform="matrix(-.69202 .72188 .72002 .69396 32.825 0)"
+          />
+          <rect
+            width="31.851"
+            height="67.097"
+            x=".017"
+            y=".85"
+            stroke="#002147"
+            strokeWidth="1.2"
+            rx="15.925"
+            transform="matrix(-.69202 .72188 .72002 .69396 22.289 1.995)"
+          />
+        </svg>
+
+        <svg
+          className="absolute -z-10 right-1/4 bottom-0"
+          width="74"
+          height="60"
+          viewBox="0 0 74 60"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <motion.rect
+            initial={{ pathLength: 0, opacity: 0 }}
+            animate={{ pathLength: 1, opacity: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
+            x="61.0971"
+            y="-6.17532"
+            width="36.8"
+            height="78.8"
+            rx="18.4"
+            transform="rotate(58.6175 61.0971 -6.17532)"
+            stroke="#00BBB4"
+            strokeWidth="1.2"
+          />
+        </svg>
       </main>
 
       <Footer />

@@ -12,7 +12,6 @@ import choclateCakeImage from "../../public/images/slider/choclate.png";
 import choclateCakeBgPattern from "../../public/images/slider/choclate-bg-pattern.png";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
 
 import type { SliderTypes } from "./types";
 

@@ -20,6 +20,7 @@
 
       &.prev,
       &.next {
+        @apply bg-white hover:bg-goldenrod;
         @apply border-goldenrod;
         @apply bg-no-repeat bg-center;
         @apply rtl:rotate-180;

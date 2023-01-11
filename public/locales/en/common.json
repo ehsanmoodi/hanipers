@@ -1,5 +1,9 @@
 {
   "view": "View",
   "our-blog": "OUR BLOG",
-  "blog-title": "HANIPERS BLOG"
+  "blog-title": "HANIPERS BLOG",
+  "read-time": "Read Time: ",
+  "min": " Min",
+  "tags": "Tags",
+  "related-posts": "Related Posts"
 }

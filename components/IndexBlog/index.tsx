@@ -32,7 +32,7 @@ const blogItemVariant = {
 
 const MotionBlogItem = motion(BlogItem);
 
-const Blog: React.FC<IndexBlogProps> = ({ title, items }) => {
+const IndexBlog: React.FC<IndexBlogProps> = ({ title, items }) => {
   const { locale } = useRouter();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -152,8 +152,35 @@ const Blog: React.FC<IndexBlogProps> = ({ title, items }) => {
           strokeWidth="1.2"
         />
       </svg>
+
+      <svg
+        className="absolute left-20 lg:left-1/4 -bottom-20"
+        xmlns="http://www.w3.org/2000/svg"
+        width="59"
+        height="47"
+        fill="none"
+      >
+        <motion.rect
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "loop",
+          }}
+          width="28.8"
+          height="60.8"
+          x="47.98"
+          y="-4.597"
+          stroke="#00BBB4"
+          strokeWidth="1.2"
+          rx="14.4"
+          transform="rotate(58.617 47.98 -4.597)"
+        />
+      </svg>
     </motion.section>
   );
 };
 
-export default Blog;
+export default IndexBlog;
