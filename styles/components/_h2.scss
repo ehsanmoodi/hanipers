@@ -1,7 +1,7 @@
 .title {
   @apply relative;
   @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
-  @apply text-center mx-auto;
+  @apply text-center mx-auto uppercase;
 
   &__svg {
     @apply absolute -left-8 top-0 bottom-0 my-auto -z-10;

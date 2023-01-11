@@ -1,48 +1,11 @@
-import blogImage1 from "../../public/images/blog/blog-image-1.jpg";
-import blogImage2 from "../../public/images/blog/blog-image-2.jpg";
-import blogImage3 from "../../public/images/blog/blog-image-3.jpg";
-
-import BlogItem from "../BlogItem";
-import H2 from "../H2";
-import { motion, useAnimationControls, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useTranslation } from "next-i18next";
+import { motion, useAnimationControls, useInView } from "framer-motion";
+import BlogItem from "../BlogItem";
+import H2 from "../H2";
 
-const blogItems = [
-  {
-    id: 1,
-    image: {
-      src: blogImage1,
-      alt: "",
-    },
-    title: "",
-    date: "20 oct 2021",
-    views: 14,
-    href: "#",
-  },
-  {
-    id: 2,
-    image: {
-      src: blogImage2,
-      alt: "",
-    },
-    title: "",
-    date: "20 oct 2021",
-    views: 14,
-    href: "#",
-  },
-  {
-    id: 3,
-    image: {
-      src: blogImage3,
-      alt: "",
-    },
-    title: "",
-    date: "20 oct 2021",
-    views: 14,
-    href: "#",
-  },
-];
+import type { IndexBlogProps } from "./types.d";
+import { useRouter } from "next/router";
 
 const blogContainerVariant = {
   hidden: { opacity: 1, scale: 0 },
@@ -69,45 +32,8 @@ const blogItemVariant = {
 
 const MotionBlogItem = motion(BlogItem);
 
-const Blog: React.FC = () => {
-  const { t } = useTranslation("blog");
-
-  const blogItems = [
-    {
-      id: 1,
-      image: {
-        src: blogImage1,
-        alt: t("items.first.title"),
-      },
-      title: t("items.first.title"),
-      date: t("items.first.date"),
-      views: t("items.first.views"),
-      href: "#",
-    },
-    {
-      id: 2,
-      image: {
-        src: blogImage2,
-        alt: t("items.second.title"),
-      },
-      title: t("items.second.title"),
-      date: t("items.second.date"),
-      views: t("items.second.views"),
-      href: "#",
-    },
-    {
-      id: 3,
-      image: {
-        src: blogImage3,
-        alt: t("items.third.title"),
-      },
-      title: t("items.third.title"),
-      date: t("items.third.date"),
-      views: t("items.second.views"),
-      href: "#",
-    },
-  ];
-
+const Blog: React.FC<IndexBlogProps> = ({ title, items }) => {
+  const { locale } = useRouter();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -128,17 +54,20 @@ const Blog: React.FC = () => {
       id="blog"
       ref={ref}
     >
-      <H2>{t("title")}</H2>
+      <H2>{title}</H2>
       <div className="index-blog__container">
-        {blogItems.map((item) => (
+        {items.map((item) => (
           <MotionBlogItem
             variants={blogItemVariant}
-            key={item.id}
-            image={item.image}
-            title={item.title}
-            date={item.date}
+            key={item.slug}
+            image={{
+              src: item.thumbnail,
+              alt: locale === "en" ? item.title.en : item.title.fa,
+            }}
+            title={locale === "en" ? item.title.en : item.title.fa}
+            date={locale === "en" ? item.date.en : item.date.fa}
             views={item.views}
-            href={item.href}
+            href={`/blog/${item.slug}`}
           />
         ))}
       </div>

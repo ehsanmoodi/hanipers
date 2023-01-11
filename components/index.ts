@@ -3,7 +3,7 @@ export { default as Footer } from "./Footer";
 export { default as SocialIcon } from "./SocialIcon";
 export { default as H2 } from "./H2";
 export { default as BlogItem } from "./BlogItem";
-export { default as Blog } from "./Blog";
+export { default as IndexBlog } from "./IndexBlog";
 export { default as Ingredients } from "./Ingredients";
 export { default as Hero } from "./Hero";
 export { default as Slider } from "./Slider";
