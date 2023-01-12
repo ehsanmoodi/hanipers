@@ -54,7 +54,7 @@ const Blog: NextPage<
   return (
     <>
       <Head>
-        <title>Hanipers</title>
+        <title>Hanipers - وبسایت رسمی کیک هانیپرز</title>
         <meta name="description" content="cake with different FILLING" />
       </Head>
 
