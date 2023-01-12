@@ -8,9 +8,11 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "next-i18next";
+import Router, { useRouter } from "next/router";
 
 const Header: React.FC = () => {
   const { t } = useTranslation("header");
+  const router = useRouter();
 
   const socials = [
     // {
@@ -30,7 +32,7 @@ const Header: React.FC = () => {
     },
   ];
 
-  const headerHeight = 60;
+  const headerHeight = 75;
   const [scroll, setScroll] = useState<boolean>(false);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
@@ -82,10 +84,21 @@ const Header: React.FC = () => {
 
   const handleItemClick = (e: React.MouseEvent<HTMLElement>, id: string) => {
     e.preventDefault();
-    scrollTo(id);
+    // scrollTo(id);
+
+    if (id === "blog") {
+      window.scrollTo(0, 0);
+      router.push("/blog");
+    } else if (id === "footer") {
+      scrollTo(id);
+    } else if (router.asPath === "/") {
+      scrollTo(id);
+    } else {
+      router.push("/");
+    }
 
     // for mobile/tablet device toggleMenu
-    if (window.screen.width < 1024) {
+    if (window.innerWidth < 1024) {
       toggleMenu();
     }
   };
@@ -95,6 +108,8 @@ const Header: React.FC = () => {
       setScroll(window.scrollY > headerHeight);
     });
   }, []);
+
+  useEffect(() => {}, [router]);
 
   return (
     <header

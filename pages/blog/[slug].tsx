@@ -210,7 +210,7 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             x="-.017"
             y=".85"
             stroke="#002147"
-            stroke-width="1.2"
+            strokeWidth="1.2"
             rx="15.925"
             transform="rotate(46.21 27.741 71.577) skewX(.154)"
           />
@@ -233,7 +233,7 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               repeatType: "loop",
             }}
             stroke="#002147"
-            stroke-width="1.2"
+            strokeWidth="1.2"
             d="M104 36.127C76.254 21.313 24.678 47.056 24.678 73.323c0 24.844 26.855 35.196 43.837 18.608C97.564 63.555 72.965-17.449 1 4.828"
           />
         </svg>
