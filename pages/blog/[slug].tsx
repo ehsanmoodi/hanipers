@@ -110,7 +110,10 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </span>
           </div>
 
-          <div className="single__content__text">{content}</div>
+          <div
+            className="single__content__text"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
 
           <div className="single__content__random">
             <div className="single__content__random__image">

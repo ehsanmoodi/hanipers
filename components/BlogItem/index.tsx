@@ -20,6 +20,7 @@ const BlogItem: React.FC<BlogItemProps> = forwardRef(
               layout="fill"
               objectFit="cover"
               objectPosition="center"
+              quality={100}
             />
           </div>
         </div>
