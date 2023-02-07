@@ -1,4 +1,6 @@
 .blog-itm {
+  @apply relative;
+
   $parent: &;
 
   &:hover {

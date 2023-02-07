@@ -6,7 +6,7 @@ import {
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Head from "next/head";
-import { motion } from "framer-motion";
+import { motion, useAnimationControls } from "framer-motion";
 import { BlogItem, Footer, Header } from "../../components";
 import {
   blogItems,
@@ -17,6 +17,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 
 import blogCloudsPattern from "../../public/images/blog-pattern.png";
+import { useEffect } from "react";
 
 const blogItemsVariant = {
   hidden: { opacity: 1, scale: 0 },
@@ -50,6 +51,13 @@ const Blog: NextPage<
 > = ({ items }) => {
   const { t } = useTranslation("common");
   const { locale } = useRouter();
+
+  const blogItemsAnimation = useAnimationControls();
+
+  useEffect(() => {
+    blogItemsAnimation.set("hidden");
+    blogItemsAnimation.start("visible");
+  }, [items]);
 
   return (
     <>
@@ -94,10 +102,24 @@ const Blog: NextPage<
           {t("blog-title")}
         </motion.h1>
 
+        {!items.length && (
+          <motion.h2
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            exit={{ scale: 0 }}
+            transition={{ duration: 0.4 }}
+            className="blog__message"
+          >
+            {t("not-found")}
+          </motion.h2>
+        )}
+
         <motion.div
           variants={blogItemsVariant}
           initial="hidden"
           whileInView="visible"
+          animate={blogItemsAnimation}
           viewport={{ margin: "0px", amount: "some" }}
           exit="exit"
           className="blog__content"
@@ -246,7 +268,7 @@ export const getServerSideProps: GetServerSideProps = async ({
   query,
 }) => {
   const items = query.tag
-    ? getBlogItemsWithTag(query.tag as string)
+    ? getBlogItemsWithTag(query.tag as string, locale ?? "en")
     : blogItems;
 
   return {

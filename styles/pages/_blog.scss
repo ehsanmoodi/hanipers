@@ -1,5 +1,5 @@
 .blog {
-  @apply relative;
+  @apply relative min-h-screen;
   @apply pt-24 pb-20 lg:pt-36 lg:pb-20;
   @apply flex flex-col gap-10;
 
@@ -10,6 +10,11 @@
 
   &__title {
     @apply px-4 py-1 max-w-6xl mx-auto text-center text-4xl lg:text-5xl font-bold;
+  }
+
+  &__message {
+    @apply relative;
+    @apply px-4 max-w-5xl mx-auto text-center text-2xl lg:text-3xl font-semibold uppercase;
   }
 
   &__content {

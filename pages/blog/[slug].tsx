@@ -102,7 +102,9 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
           <div className="single__content__meta">
             <span className="date">{date}</span>
-            <span className="views">{views}</span>
+            <span className="views">
+              {views} {t("views")}
+            </span>
             <span className="time">
               {t("read-time")}
               {Math.round(readingTime(content).minutes)}
@@ -174,7 +176,7 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           <div className="single__content__tags">
             <div className="single__content__tags__header">{t("tags")}</div>
             <div className="single__content__tags__items">
-              {tags.map((tag: string) => (
+              {tags[locale ?? "en"].map((tag: string) => (
                 <Link href={`/blog?tag=${tag}`} key={tag}>
                   {tag}
                 </Link>
