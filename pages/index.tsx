@@ -20,6 +20,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Hanipers - وبسایت رسمی کیک هانیپرز</title>
         <meta name="description" content="cake with different FILLING" />
+        <meta name="google-site-verification" content="sjQ2TDEQXAW3409E5BoB2P-ak-clJo1UWVv59mmQue4" />
       </Head>
 
       <Header />
