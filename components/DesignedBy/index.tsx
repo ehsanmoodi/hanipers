@@ -6,7 +6,7 @@ const DesigneddBy: React.FC = () => {
   return (
     <p className="designed-by">
       {locale === "en" ? "Designed By " : "طراحی توسط "}
-      <a href="https://webnagroup.ir" target="_blank">
+      <a href="https://webnagroup.ir" target="_blank" rel="noreferrer">
         {locale === "en"
           ? "Webna Digital Marketing Group"
           : "آژانس دیجیتال مارکتینگ وبنا"}
