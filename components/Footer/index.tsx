@@ -11,6 +11,7 @@ import SocialIcon from "../SocialIcon";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
+import { DesignedBy } from "..";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation("footer");
@@ -77,7 +78,8 @@ const Footer: React.FC = () => {
             ))}
           </ul>
         </div>
-        {/* <hr /> */}
+        <hr />
+        <DesignedBy />
       </div>
     </footer>
   );

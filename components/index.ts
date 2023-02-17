@@ -9,3 +9,4 @@ export { default as Hero } from "./Hero";
 export { default as Slider } from "./Slider";
 export { default as LanguageSwitcher } from "./LanguageSwitcher";
 export { default as PurchaseButton } from "./PurchaseButton";
+export { default as DesignedBy } from "./DesignedBy";

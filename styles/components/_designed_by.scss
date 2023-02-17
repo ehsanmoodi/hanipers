@@ -1,0 +1,8 @@
+.designed-by {
+  @apply text-center lg:text-start;
+  @apply text-white font-medium text-base;
+
+  & > a {
+    @apply hover:underline underline-offset-8;
+  }
+}
