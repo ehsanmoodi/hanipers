@@ -1,10 +1,20 @@
 import { StaticImageData } from "next/image";
 import uniqueRandomArray from "unique-random-array";
+import { PurchaseButtonType } from "../components/PurchaseButton/types";
 
 // Thumbnails
 import image1 from "../public/images/blog/1.jpg";
 import image2 from "../public/images/blog/2.jpg";
 import image3 from "../public/images/blog/3.jpg";
+
+export const purchaseLink: PurchaseButtonType = {
+  link: "http://digikala.com",
+  // link: null,
+  label: {
+    en: "Buy from Digikala",
+    fa: "خرید از دیجی‌کالا",
+  },
+};
 
 export interface BlogItemType {
   slug: string;

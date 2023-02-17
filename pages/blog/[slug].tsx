@@ -9,12 +9,13 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 import { ParsedUrlQuery } from "querystring";
-import { Footer, Header, IndexBlog } from "../../components";
+import { Footer, Header, IndexBlog, PurchaseButton } from "../../components";
 import {
   blogItems,
   getRelatedBlogItems,
   getRandomBlogItem,
   emptyBlogItem,
+  purchaseLink,
 } from "../../content/blog";
 import type { BlogItemType } from "../../content/blog";
 
@@ -186,6 +187,8 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
         </motion.article>
 
         <IndexBlog title={t("related-posts")} items={relatedBlogItems} />
+
+        <PurchaseButton link={purchaseLink.link} label={purchaseLink.label} />
 
         <svg
           className="hidden lg:inline-block absolute -z-10 top-1/4 left-24"
