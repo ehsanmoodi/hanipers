@@ -87,6 +87,21 @@
     &__text {
       @apply font-normal text-base leading-7 lg:text-lg lg:leading-8;
       @apply text-justify;
+
+      h2,
+      h3,
+      h4,
+      h5 {
+        @apply font-bold mt-5 mb-1;
+      }
+
+      h2 {
+        @apply text-xl lg:text-2xl;
+      }
+
+      h3 {
+        @apply text-lg lg:text-xl;
+      }
     }
 
     &__random {
@@ -104,8 +119,11 @@
         @apply w-40 h-40 rounded-full;
 
         img {
-          @apply w-full h-full rounded-full;
-          @apply object-cover object-center;
+          border-radius: 100% !important;
+          width: 100% !important;
+          height: 100% !important;
+          object-fit: cover !important;
+          object-position: center !important;
         }
       }
 

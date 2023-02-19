@@ -104,7 +104,7 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           <div className="single__content__meta">
             <span className="date">{date}</span>
             <span className="views">
-              {views} {t("views")}
+              {views} {t("view")}
             </span>
             <span className="time">
               {t("read-time")}
