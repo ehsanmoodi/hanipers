@@ -7,6 +7,8 @@ import image2 from "../public/images/blog/2.jpg";
 import image3 from "../public/images/blog/3.jpg";
 import image4 from "../public/images/blog/4.png";
 import image5 from "../public/images/blog/5.png";
+import image6 from "../public/images/blog/6.jpg";
+
 export interface BlogItemType {
   slug: string;
   title: {
@@ -66,9 +68,9 @@ export const blogItems: BlogItemType[] = [
     featureImage: image1,
     date: {
       en: "17 oct 2022",
-      fa: "۲۰ آذر ۱۴۰۱",
+      fa: "20 بهمن ۱۴۰۱",
     },
-    views: "14",
+    views: "653",
     content: {
       en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
@@ -90,9 +92,9 @@ export const blogItems: BlogItemType[] = [
     featureImage: image2,
     date: {
       en: "16 Jan 2023",
-      fa: "16 ژانویه 2023",
+      fa: "30 بهمن 1401",
     },
-    views: "24",
+    views: "926",
     content: {
       en: `Hanipers is light, and what do we mean by light?
 Well, remember there was a question of which one is heavier? A kilogram of cotton or a kilogram of metal bars; if you were one of those neat students sitting at the front, you would probably say they have the same weight and pass the test with an A+, or you would get the point the questions with an ahaaa sound of surprise. It may seem physically impossible but let me tell you that a kilogram of Hanipers is for sure lighter than a kilogram of iron bars, and why? We suggest you taste it once and give it a try! 
@@ -132,7 +134,7 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
       en: "17 oct 2022",
       fa: "30 بهمن ۱۴۰۱",
     },
-    views: "18",
+    views: "899",
     content: {
       en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat`,
       fa: `<p dir="RTL">علاقه ما به خوراکی&zwnj;های شیرین خصوصا انواع کیک، تاریخ مصرف نداره و کوچیک و بزرگ عاشق انواع کیک هستیم. اگر سراغ کیک&zwnj;های هانیپرز اومده باشین، متوجه شدین که این کیک&zwnj;ها حس و حالِ کیک&zwnj;های کرم دار دارن، با این تفاوت که خیلی بافت سبکی دارن و با وجود حجم بالای کرم که در هر برش کیک پخش شده، اما خیلی سبک هستن. در واقع همین ویژگی&zwnj;ها باعث شدن که کیک&zwnj;های هانیپرز در دسته لایت کیک&zwnj;ها قرار بگیرن و طرفداراش هم زیاد باشن.</p>
@@ -168,7 +170,7 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
       en: "17 feb 2023",
       fa: "30 بهمن ۱۴۰۱",
     },
-    views: "24",
+    views: "369",
     content: {
       en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat`,
       fa: `<p dir="RTL">همه ما با طعم و مزه کیک&zwnj;ها خاطره داریم. هانیپرز یکی از محبوب&zwnj;ترین لایت کیک&zwnj;هاس. وقتی از سبک بودن یه خوراکی حرف می&zwnj;زنیم، مطمئنا هانیپرز اولین اسمیه که به ذهنمون می&zwnj;رسه.&nbsp;</p>
@@ -194,13 +196,13 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
       en: "Flying without wings as light as a little piece of cloud",
       fa: "سفری به دنیای کیک Twinkie",
     },
-    thumbnail: image3,
-    featureImage: image3,
+    thumbnail: image6,
+    featureImage: image6,
     date: {
       en: "17 oct 2022",
-      fa: "۲۰ آذر ۱۴۰۱",
+      fa: "1 اسفند ۱۴۰۱",
     },
-    views: "18",
+    views: "1065",
     content: {
       en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat`,
       fa: `<p align="center">&nbsp;</p>
@@ -246,9 +248,9 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     featureImage: image1,
     date: {
       en: "17 oct 2022",
-      fa: "۲۰ آذر ۱۴۰۱",
+      fa: "29 بهمن ۱۴۰۱",
     },
-    views: "14",
+    views: "1149",
     content: {
       en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
