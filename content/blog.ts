@@ -8,6 +8,9 @@ import image3 from "../public/images/blog/3.jpg";
 import image4 from "../public/images/blog/4.png";
 import image5 from "../public/images/blog/5.png";
 import image6 from "../public/images/blog/6.jpg";
+import image7 from "../public/images/blog/7.jpg";
+import image9 from "../public/images/blog/9.jpg";
+import image10 from "../public/images/blog/10.jpg";
 
 export interface BlogItemType {
   slug: string;
@@ -54,7 +57,7 @@ export const emptyBlogItem = {
     en: [""],
     fa: [""],
   },
-  buyLink: "",
+  buyLink: "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
 };
 
 export const blogItems: BlogItemType[] = [
@@ -62,13 +65,13 @@ export const blogItems: BlogItemType[] = [
     slug: "first-blog-post",
     title: {
       en: "It’s time to take a bite and get ready for the journey",
-      fa: "کیکتو گاز بزن و آماده‌ی سفر به دنیای هانیپرز شو",
+      fa: "چرا بچه‌ها هانیپرز دوست دارند؟!",
     },
-    thumbnail: image1,
-    featureImage: image1,
+    thumbnail: image7,
+    featureImage: image7,
     date: {
       en: "17 oct 2022",
-      fa: "20 بهمن ۱۴۰۱",
+      fa: "20 بهمن 1401",
     },
     views: "653",
     content: {
@@ -76,7 +79,29 @@ export const blogItems: BlogItemType[] = [
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
       `,
-      fa: `لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. <br /> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.`,
+      fa: `
+<p dir="RTL">امکان ندارد در مورد انواع شیرینی و کیک صحبت کنیم و به علاقه بیش از حد بچه&zwnj;ها به این خوراکی&zwnj;ها جذاب اشاره&zwnj;ای نکنیم. اما نکته&zwnj;ای که در مورد علاقه بچه&zwnj;ها به کیک وجود دارد، این است که بچه&zwnj;ها معمولا عاشق تمام کیک&zwnj;ها نمی&zwnj;شوند. برخی از کیک&zwnj;ها به دلیل وجود خامه&zwnj;ی بسیار و حتی شیرینی بیش از حد، دل را می&zwnj;زنند و همین موضوع می&zwnj;تواند آنها را از لیست کیک&zwnj;های محبوب بچه&zwnj;ها خارج کند.</p>
+
+<p dir="RTL">یکی از کیک&zwnj;های محبوب این روزها میان بچه&zwnj;ها کیک هانیپرز است که در عین حال که مزه&zwnj;ای جذاب و طعم&zwnj;های متنوعی دارد، اما بیشتر به خاطر بافت اسفنجی و سبکی که دارد معروف است. در این مقاله قرار است در مورد محبوبیت این کیک صحبت کنیم و دلایل انتخاب این کیک توسط بچه&zwnj;ها را بازگو کنیم.</p>
+
+<h2 dir="RTL">دلایل محبوبیت کیک هانیپرز</h2>
+
+<p dir="RTL">یکی از مهم&zwnj;ترین دلایل برای محبوبیت این کیک نزد کودکان، اندازه مناسب و کوچک آن است. علاوه بر این، تنوع در لایه&zwnj;ی درون این کیک نیز به محبوبیت آن افزوده و بچه&zwnj;ها و حتی بزرگ&zwnj;ترها با ذائقه&zwnj;های مختلف، می&zwnj;توانند عاشق این کیک شوند. کیک هانیپرز با مغز وانیل، شکلات و کره بادام&zwnj;زمینی وجود دارد و همین موضوع، دایره افرادِ عاشق این کیک را بیشتر کرده است. از دیگر ویژگی&zwnj;های این کیک که بچه&zwnj;ها عاشق آن هستند، می&zwnj;توان به موارد زیر اشاره کرد:</p>
+
+<ol>
+\t<li dir="RTL">هانیپرز از کیک اسفنجی ساخته شده و همین موضوع، آن را به یک میان وعده، عصرانه و صبحانه سبک تبدیل کرده است. به همین خاطر، می&zwnj;توان این کیک را به عنوان یک میان وعده برای مدرسه&zwnj;ی کودکان در نظر گرفت.</li>
+\t<li dir="RTL">در صورتی که کیک&zwnj;های متنوعی را در بازار امتحان کرده باشید، احتمالا متوجه پخش نبودن کرم داخل برخی کیک&zwnj;ها شده&zwnj;اید. بچه&zwnj;ها عاشق آن لایه کرمی داخل کیک هستند و همچنین دوست دارند که این کرم را از اولین گازی که به کیک می&zwnj;زنند، مزه کنند. در هر برش کیک هانیپرز، حجم بالایی از کرم پخش شده است و بچه&zwnj;ها می&zwnj;توانند از مزه&zwnj;ی شکلات، وانیل و کره بادام زمینی در هر گاز لذت ببرند.</li>
+\t<li dir="RTL">شیرینی خامه&zwnj;ای محبوبیت بسیاری میان بچه&zwnj;ها و بزرگسالان دارد. اما همان&zwnj;طور که همه می&zwnj;دانند، شیرینی خامه&zwnj;ای بسیار سنگین است و کالری بالایی دارد. کرم موجود در کیک هانیپرز، هوادهی شده و و بسیار سبک است، اما از نظر حس و حال و مزه می&zwnj;تواند تداعی&zwnj;کننده شیرینی خامه&zwnj;ای باشد. علاوه بر این، کیک هانیپرز کالری کمتری با حس و طعم مشابه کیک &zwnj;خامه&zwnj;ای دارد.</li>
+\t<li dir="RTL">بافت این کیک بسیار سبک است و به همین دلیل به آن لایت کیک نیز می&zwnj;گویند.</li>
+</ol>
+
+<p align="center" dir="RTL">&nbsp;</p>
+
+<h2 dir="RTL">هانیپرز، کیک سبک با مزه&zwnj;های جذاب برای بچه&zwnj;ها</h2>
+
+<p dir="RTL">بچه&zwnj;ها نیز مانند بزرگسالان معیارهایی برای انتخاب خوراکی&zwnj;های مختلف دارند و کیک هانیپرز توانسته تمام معیارهای کیک محبوبِ بچه&zwnj;ها را داشته باشد. این کیک بافت سبکی دارد و در اندازه&zwnj;ی بسیار مناسبی ارائه می&zwnj;شود. علاوه بر این کرم شکلاتی، کرم وانیلی و کره بادام&zwnj;زمینی، طعم&zwnj;های متنوع این کیک هستند که در هر برش کیک حس می&zwnj;شوند. با کلیک روی دکمه خرید، می&zwnj;توانید کیک بسیار خوشمزه و سبک برای بچه خود بخرید که کالری آن نسبت به بسیاری از شیرینی&zwnj;های خامه&zwnj;ای قنادی&zwnj;ها کمتر است، اما حس و طعم مشابه آنها را دارد.</p>
+
+`,
     },
     tags: { en: ["tag1", "teg2"], fa: ["تگ۱", "تگ۲"] },
     buyLink:
@@ -128,11 +153,11 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
       en: "Flying without wings as light as a little piece of cloud",
       fa: "هانیپرز، لایت کیکی با کرم سرتاسری",
     },
-    thumbnail: image4,
-    featureImage: image4,
+    thumbnail: image3,
+    featureImage: image3,
     date: {
       en: "17 oct 2022",
-      fa: "30 بهمن ۱۴۰۱",
+      fa: "30 بهمن 1401",
     },
     views: "899",
     content: {
@@ -168,7 +193,7 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     featureImage: image5,
     date: {
       en: "17 feb 2023",
-      fa: "30 بهمن ۱۴۰۱",
+      fa: "30 بهمن 1401",
     },
     views: "369",
     content: {
@@ -200,7 +225,7 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     featureImage: image6,
     date: {
       en: "17 oct 2022",
-      fa: "1 اسفند ۱۴۰۱",
+      fa: "1 اسفند 1401",
     },
     views: "1065",
     content: {
@@ -242,13 +267,13 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     slug: "sixth-blog-post",
     title: {
       en: "It’s time to take a bite and get ready for the journey",
-      fa: "کیکتو گاز بزن و آماده‌ی سفر به دنیای هانیپرز شو",
+      fa: "خوشمزه‌ترین کیک وانیلی با مغزی کرم کاکائویی",
     },
-    thumbnail: image1,
-    featureImage: image1,
+    thumbnail: image9,
+    featureImage: image9,
     date: {
       en: "17 oct 2022",
-      fa: "29 بهمن ۱۴۰۱",
+      fa: "29 بهمن 1401",
     },
     views: "1149",
     content: {
@@ -256,11 +281,88 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
       `,
-      fa: `لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. <br /> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.`,
+      fa: `
+<p dir="RTL">ویژگیِ یه کیک خوب چی می&zwnj;تونه باشه؟ شیرین باشه؟ خیلی خامه&zwnj;ای باشه؟ اندازه مناسبی داشته باشه؟ یا اینکه سبک باشه و شکلات یا کاکائو داشته باشه؟ ویژگی یه کیک خوب، می&zwnj;تونه سبک بودن و لذیذ بودن اون باشه. چیزی که هانیپرز داره و هر یک کیلوگرم هانیپرز از یک کیلوگرم پنبه هم سبک&zwnj;تره. حالا اگر کرم کاکائویی هم داشته باشه که نورعلانوره.</p>
+
+<h2 dir="RTL">هانیپرز، کیک وانیلی با مغزی کرم کاکائویی</h2>
+
+<p dir="RTL">از میان تمام طعم&zwnj;های محبوبِ کیک و دسر در دنیا، دو طعم وجود داره که در کنار هم معجزه می&zwnj;کنن: وانیل و کاکائو. هانیپرز، یه کیک اسفنجیِ وانیلی و بسیار خوشمزه و لذیذه که اندازه بسیار خوب و سبک بودن اون، باعث شده که به یه میان وعده محبوب تبدیل بشه. یکی از ویژگی&zwnj;هایی که این کیک رو به یکی از خوشمزه&zwnj;ترین کیک&zwnj;های این روزا تبدیل کرده، اینه که کرم و مغزی داخلش به صورت سرتاسری پر شده و مزه&zwnj;ی این کرم رو میشه تو هر گازی که به کیک می&zwnj;زنین، حس کنین.</p>
+
+<p dir="RTL">هانیپرز مدل&zwnj;های مختلفی داره که در همه مدل&zwnj;ها کیک اسفنجی پایِ ثابته و مغزی داخل کیک فرق می&zwnj;کنه. یکی از محبوب&zwnj;ترین مدل&zwnj;های هانیپرز، کیک اسفنجی با مغزی کرم کاکائوییه که مزه&zwnj;ی بسیار هیجان&zwnj;انگیز و وصف&zwnj;ناپذیری داره.</p>
+
+<p dir="RTL">با اینکه این کیک در دسته کیک&zwnj;های کرم&zwnj;دار حساب میشه، اما چون کرم کاکائویی داخل این کیک سبک و هوادهی شده&zwnj;اس، بنابراین خوردن این کیک اصلا با احساس سنگینی همراه نیست و هر اندازه از این کیک بخورین، باز هم حالت سنگینی نخواهید داشت.</p>
+
+<h2 dir="RTL">هانیپرز میان وعده&zwnj;ای کامل و سبک</h2>
+
+<p dir="RTL">اگر به دنبال کیکی هستین که همراه با چای و قهوه خود بخورین و از طعم وانیل در کنار کرم کاکائویی لذت ببرین، به شما کیک هانیپرز رو پیشنهاد می&zwnj;کنیم. ترکیبِ هانیپرز با مغزی کاکائو، با هر نوع نوشیدنی مثل چای و قهوه، یه ترکیب عالی میشه و می&zwnj;تونین عصرونه&zwnj;تون رو با این کیک، به یه حس جدید و تازه تبدیل کنین. برای اینکه به دنیای هانیپرز سفر کنی، روی لینک زیر کلیک کن و لایت کیکی خوشمزه با مغزی کاکائو سفارش بده.</p>
+
+`,
     },
     tags: { en: ["tag3", "tag6"], fa: ["تگ۳", "تگ۶"] },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+  },
+  {
+    slug: "seventh-blog-post",
+    title: {
+      en: "It’s time to take a bite and get ready for the journey",
+      fa: "سبک مثل کیک‌های هانیپرز",
+    },
+    thumbnail: image10,
+    featureImage: image10,
+    date: {
+      en: "17 oct 2022",
+      fa: "30 بهمن 1401",
+    },
+    views: "1149",
+    content: {
+      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      `,
+      fa: `<p dir="RTL">تصورِ عصرانه و میان&zwnj;وعده بدون کیک سخت است. این خوراکی&zwnj;ها شیرینیِ تمام لحظات ما هستند و علاوه بر مزه&zwnj;ی عالی، باعث شادی و نشاط نیز می&zwnj;شوند. اما برخی کیک&zwnj;ها بسیار سنگین و حجیم هستند و نمی&zwnj;توان از آنها به عنوان میان وعده و حتی عصرانه کنارِ&zwnj; یک فنجان چای و قهوه استفاده کرد. در این مطلب قصد داریم تا یکی از کیک&zwnj;های محبوب این روزها را معرفی کنیم. این کیک با بافت اسفنجی و سبک، می&zwnj;تواند برای عصرانه، میان&zwnj;وعده و حتی در مهمانی&zwnj;ها استفاده شود.</p>
+
+<p align="center" dir="RTL"><span dir="LTR"></span></p>
+
+<h2 dir="RTL"><strong>هانیپرز: لایت کیک خوشمزه</strong></h2>
+
+<p dir="RTL">وقتی صحبت از کیک&zwnj;های سبک یا همان لایت کیک&zwnj;ها می&zwnj;شود، اولین نامی که به ذهن خطور می&zwnj;کند، <a href=""><strong>هانیپرز</strong></a> است.</p>
+
+<p dir="RTL">هانیپرز یکی از محصولات شرکت زرکام است که کیفیت بالایی دارد و توانسته در میان علاقه&zwnj;مندان کیک&zwnj;های عصرانه، جایگاه خود را به&zwnj;دست آورد.</p>
+
+<p dir="RTL">هانیپرز یک کیک اسفنجی سبک است که مقدار مناسبی از کرم به صورت سرتاسری داخل آن را پر کرده است. این ویژگی باعث شده که مزه&zwnj;ی مغزیِ داخل کیک، در تمام نقاط کیک احساس شود و خوشمزگی این کیک&zwnj;ها را دو چندان کند.</p>
+
+<p dir="RTL">لایت کیک هانیپرز چند ویژگی دارد:</p>
+
+<ul>
+\t<li dir="RTL">عدم استفاده از رنگ مصنوعی</li>
+\t<li dir="RTL">وجود حجم بالای مغزی در کیک</li>
+\t<li dir="RTL">بافت خامه&zwnj;ای و سبک کرم</li>
+\t<li dir="RTL">توزیع مناسب و یکسان کرم در کیک</li>
+\t<li dir="RTL">بافت نرم و سبک کیک</li>
+</ul>
+
+<p align="center" dir="RTL"><span dir="LTR"></span></p>
+
+<h2 dir="RTL"><strong>انواع طعم&zwnj;های هانیپرز</strong></h2>
+
+<p dir="RTL">در حال حاضر، هانیپرز در دو طعم متفاوت تولید شده است. پایه هر دو طعم، کیک اسفنجی وانیلی است و تفاوت آنها وجود مغزی&zwnj;های&zwnj; مختلف کرم شکلات و کرم وانیل است.</p>
+
+<p dir="RTL">از مهم&zwnj;ترین دلایل سبکی این کیک، وجود کیک اسفنجی و همچنین کرمِ سبک و هوادهی شده&zwnj;ی داخل این کیک&zwnj;ها است. این دو ویژگی، کیک&zwnj;های هانیپرز را بسیار سبک کرده&zwnj;اند، به طوری که می&zwnj;توانیم بگوییم یک کیلوگرم هانیپرز از یک کیلوگرم پنبه هم سبک&zwnj;تر است.</p>
+
+<h2 dir="RTL"><strong>از کرم سبک کیک&zwnj;های هانیپرز چه می&zwnj;دانیم؟</strong></h2>
+
+<p dir="RTL">بهترین و به&zwnj;روزترین تجهیزات برای تولید کیک&zwnj;های هانیپرز به کار گرفته شده&zwnj;اند. این دستگاه&zwnj;ها به صورت سرتاسری کیک&zwnj;ها را از کرم پر می&zwnj;کنند. به این معنا که کرم از سه نقطه متفاوت به کیک تزریق می&zwnj;شود و همین موضوع باعث شده که مزه&zwnj;ی کرم وانیل و کرم شکلات، در تمام نقاط کیک حس شود.</p>
+
+<h2 dir="RTL"><strong>با ما به دنیای هانیپرز سفر کنید</strong></h2>
+
+<p dir="RTL">طعم&zwnj;های مختلف هانیپرز با کیفیت بالا و منحصربه&zwnj;فرد هم برای عشاق شکلات و هم برای افرادی که به طعم وانیل علاقه دارند، مناسب هستند. ترکیب کیک اسفنجی و این دو نوع کرم&zwnj;، یکی از خوشمزه&zwnj;ترین میان&zwnj;وعده&zwnj;ها را به وجود آورده است. با داشتن هانیپرز می&zwnj;توانید یکی از سبک&zwnj;ترین، لذیذترین و البته باکیفیت&zwnj;ترین کیک&zwnj;ها را تجربه کنید.</p>
+
+`,
+    },
+    tags: { en: ["tag3", "tag6"], fa: ["تگ۳", "تگ۶"] },
+    buyLink:
+        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
 ];
 
