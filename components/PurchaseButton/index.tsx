@@ -5,9 +5,10 @@ import digikalaIcon from "../../public/images/digikala.png";
 
 import type { PurchaseButtonType } from "./types.d";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
-const PurchaseButton: React.FC<PurchaseButtonType> = ({ link, label }) => {
-  const { locale } = useRouter();
+const PurchaseButton: React.FC<PurchaseButtonType> = ({ link }) => {
+  const { t } = useTranslation("common");
 
   return link ? (
     <motion.a
@@ -36,7 +37,7 @@ const PurchaseButton: React.FC<PurchaseButtonType> = ({ link, label }) => {
         animate={{ scaleY: 1 }}
         transition={{ duration: 0.75, delay: 1 }}
       >
-        {locale === "en" ? label.en : label.fa}
+        {t("buy-label")}
       </motion.span>
     </motion.a>
   ) : (

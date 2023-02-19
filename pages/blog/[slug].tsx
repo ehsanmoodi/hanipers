@@ -15,7 +15,6 @@ import {
   getRelatedBlogItems,
   getRandomBlogItem,
   emptyBlogItem,
-  purchaseLink,
 } from "../../content/blog";
 import type { BlogItemType } from "../../content/blog";
 
@@ -34,6 +33,7 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   date,
   content,
   tags,
+  buyLink,
 }) => {
   const [randomBlogItem, setRandomBlogItem] =
     useState<BlogItemType>(emptyBlogItem);
@@ -188,7 +188,7 @@ const Single: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
         <IndexBlog title={t("related-posts")} items={relatedBlogItems} />
 
-        <PurchaseButton link={purchaseLink.link} label={purchaseLink.label} />
+        <PurchaseButton link={buyLink} />
 
         <svg
           className="hidden lg:inline-block absolute -z-10 top-1/4 left-24"
@@ -295,6 +295,7 @@ export const getStaticProps: GetStaticProps = async ({ params, locale }) => {
       date: locale === "en" ? data.date.en : data.date.fa,
       content: locale === "en" ? data.content.en : data.content.fa,
       tags: data.tags,
+      buyLink: data.buyLink,
       ...(await serverSideTranslations(locale ?? "en", [
         "common",
         "header",

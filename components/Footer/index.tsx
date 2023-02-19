@@ -1,10 +1,12 @@
 import footerBgPattern from "../../public/images/footer-pattern.png";
 import {
   Address,
+  Aparat,
   Call,
   Email,
   Instagram,
   Telegram,
+  Twitter,
   Whatsapp,
 } from "../../icons";
 import SocialIcon from "../SocialIcon";
@@ -32,6 +34,16 @@ const Footer: React.FC = () => {
       href: "https://instagram.com/hanipers_official",
       icon: <Instagram />,
     },
+    {
+      id: "aparat",
+      href: "https://www.aparat.com/zarkam.official",
+      icon: <Aparat />,
+    },
+    {
+      id: "twitter",
+      href: "https://www.twitter.com",
+      icon: <Twitter />,
+    },
   ];
 
   return (
@@ -53,22 +65,18 @@ const Footer: React.FC = () => {
       </motion.div>
       <div className="container relative mx-auto flex flex-col gap-5 px-6 lg:px-10 max-w-6xl">
         <div className="footer__contact">
-          {/* <span className="footer__contact__item">
+          <span className="footer__contact__item">
             <Address />
-            Lorem ipsum dolor sit amet, consectetur adipiscing
+            {t("address")}
           </span>
-          <a href="mailto:info@tickers.com" className="footer__contact__item">
+          <a href="mailto:contact@zarkam.com" className="footer__contact__item">
             <Email />
-            info@Tickers.com
+            contact@zarkam.com
           </a>
-          <a href="tel:09901234567" className="footer__contact__item">
+          <a href="tel:02643212000" className="footer__contact__item">
             <Call />
-            (990)123-4567
-          </a> */}
-
-          <div className="footer__copy-right">
-            <p>© {t("copy-right")}</p>
-          </div>
+            02643212000
+          </a>
 
           <ul className="footer__contact__socials">
             {socials.map((item) => (
@@ -79,7 +87,10 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <hr />
-        <DesignedBy />
+        <div className="footer__copy-right">
+          <p>© {t("copy-right")}</p>
+        </div>
+        {/* <DesignedBy /> */}
       </div>
     </footer>
   );
