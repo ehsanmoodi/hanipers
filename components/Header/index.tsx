@@ -180,13 +180,13 @@ const Header: React.FC = () => {
 
         <LanguageSwitcher />
 
-        <ul className="footer__contact__socials">
-          {socials.map((item) => (
-            <li key={item.id}>
-              <SocialIcon href={item.href} icon={item.icon} />
-            </li>
-          ))}
-        </ul>
+        {/*<ul className="footer__contact__socials">*/}
+        {/*  {socials.map((item) => (*/}
+        {/*    <li key={item.id}>*/}
+        {/*      <SocialIcon href={item.href} icon={item.icon} />*/}
+        {/*    </li>*/}
+        {/*  ))}*/}
+        {/*</ul>*/}
       </ul>
     </header>
   );
