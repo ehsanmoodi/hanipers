@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
     },
     {
       id: "twitter",
-      href: "https://www.twitter.com",
+      href: "https://twitter.com/hanipers_official",
       icon: <Twitter />,
     },
   ];
