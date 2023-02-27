@@ -64,7 +64,7 @@ export const blogItems: BlogItemType[] = [
   {
     slug: "kids-and-hanipers",
     title: {
-      en: "It’s time to take a bite and get ready for the journey",
+      en: "Why do kids love Hanipers?",
       fa: "چرا بچه‌ها هانیپرز دوست دارند؟!",
     },
     thumbnail: image7,
@@ -75,9 +75,19 @@ export const blogItems: BlogItemType[] = [
     },
     views: "653",
     content: {
-      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      en: `
+      <p>Our desire for sweet food, especially cakes, has no expiration date, and no matter how young or old we are, we love all kinds of cakes. If you&#39;ve come across Hanipers cakes, you must have noticed that these cakes give a feeling of cream cakes; the difference is that they have a very light texture and despite the large amount of cream spread in each slice of the cake, they&#39;re still very light. In fact, these features are the reason why Hanipers cakes are categorized in the light cakes category and have many fans.</p>
+
+<p><strong>A High Amount of Cream in Each Slice of Hanipers Cakes </strong></p>
+
+<p>Hanipers is a high-quality and light sponge cake filled with the right amount of cream all over it. This means that with the first bite of this cake, you feel the delicious taste of cream in it. Such a thing is done by special devices that inject the cream into the cake from three different points. You must think that this amount of cream should add to the weight of the Hanipers cake! No, it&#39;s not like that. The cream inside Hanipers cakes is light and aerated, and at the same time as being very light, it gives you the feeling of cream cakes and sweets. That&#39;s why Hanipers cakes can be used as a snack or breakfast, and you can try different flavors of it with tea and coffee.</p>
+
+<p>More than that, some pastries and cream cakes become a little dry and hard because the cream has not spread well. But there is no such problem in Hanipers. The cream is spread inside Hanipers sponge cake and that&#39;s what makes this cake very soft and tender. Different types of Hanipers have a light sponge cake with chocolate and vanilla filling.</p>
+
+<p><strong>Different Flavors of Hanipers Cake </strong></p>
+
+<p>Each of these creams has many lovers and the combination of light sponge cake with these creams has won the hearts of many people with different tastes. Especially children who love the cream inside this cake. If you like to take a trip to the exciting world of Hanipers and experience a light cake with a light cream as a snack, click on the link below and order Hanipers with your favorite cream today.</p>
+
       `,
       fa: `
 <p dir="RTL">امکان ندارد در مورد انواع شیرینی و کیک صحبت کنیم و به علاقه بیش از حد بچه&zwnj;ها به این خوراکی&zwnj;ها جذاب اشاره&zwnj;ای نکنیم. اما نکته&zwnj;ای که در مورد علاقه بچه&zwnj;ها به کیک وجود دارد، این است که بچه&zwnj;ها معمولا عاشق تمام کیک&zwnj;ها نمی&zwnj;شوند. برخی از کیک&zwnj;ها به دلیل وجود خامه&zwnj;ی بسیار و حتی شیرینی بیش از حد، دل را می&zwnj;زنند و همین موضوع می&zwnj;تواند آنها را از لیست کیک&zwnj;های محبوب بچه&zwnj;ها خارج کند.</p>
@@ -151,7 +161,7 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
   {
     slug: "light-cake-with-light-cream",
     title: {
-      en: "Flying without wings as light as a little piece of cloud",
+      en: "Hanipers With Vanilla Cream All Along ",
       fa: "هانیپرز، لایت کیکی با کرم سرتاسری",
     },
     thumbnail: image3,
@@ -162,7 +172,20 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     },
     views: "899",
     content: {
-      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat`,
+      en: `
+      <p>Our desire for sweet food, especially cakes, has no expiration date, and no matter how young or old we are, we love all kinds of cakes. If you&#39;ve come across Hanipers cakes, you must have noticed that these cakes give a feeling of cream cakes; the difference is that they have a very light texture and despite the large amount of cream spread in each slice of the cake, they&#39;re still very light. In fact, these features are the reason why Hanipers cakes are categorized in the light cakes category and have many fans.</p>
+
+<p><strong>A High Amount of Cream in Each Slice of Hanipers Cakes </strong></p>
+
+<p>Hanipers is a high-quality and light sponge cake filled with the right amount of cream all over it. This means that with the first bite of this cake, you feel the delicious taste of cream in it. Such a thing is done by special devices that inject the cream into the cake from three different points. You must think that this amount of cream should add to the weight of the Hanipers cake! No, it&#39;s not like that. The cream inside Hanipers cakes is light and aerated, and at the same time as being very light, it gives you the feeling of cream cakes and sweets. That&#39;s why Hanipers cakes can be used as a snack or breakfast, and you can try different flavors of it with tea and coffee.</p>
+
+<p>More than that, some pastries and cream cakes become a little dry and hard because the cream has not spread well. But there is no such problem in Hanipers. The cream is spread inside Hanipers sponge cake and that&#39;s what makes this cake very soft and tender. Different types of Hanipers have a light sponge cake with chocolate and vanilla filling.</p>
+
+<p><strong>Different Flavors of Hanipers Cake </strong></p>
+
+<p>Each of these creams has many lovers and the combination of light sponge cake with these creams has won the hearts of many people with different tastes. Especially children who love the cream inside this cake. If you like to take a trip to the exciting world of Hanipers and experience a light cake with a light cream as a snack, click on the link below and order Hanipers with your favorite cream today.</p>
+
+      `,
       fa: `<p dir="RTL">علاقه ما به خوراکی&zwnj;های شیرین خصوصا انواع کیک، تاریخ مصرف نداره و کوچیک و بزرگ عاشق انواع کیک هستیم. اگر سراغ کیک&zwnj;های هانیپرز اومده باشین، متوجه شدین که این کیک&zwnj;ها حس و حالِ کیک&zwnj;های کرم دار دارن، با این تفاوت که خیلی بافت سبکی دارن و با وجود حجم بالای کرم که در هر برش کیک پخش شده، اما خیلی سبک هستن. در واقع همین ویژگی&zwnj;ها باعث شدن که کیک&zwnj;های هانیپرز در دسته لایت کیک&zwnj;ها قرار بگیرن و طرفداراش هم زیاد باشن.</p>
 
 <h2 dir="RTL">حجم بالای کرم که در هر برش کیک<span dir="LTR">&zwnj;</span>های هانیپرز</h2>
