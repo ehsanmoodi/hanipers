@@ -11,6 +11,9 @@ import image6 from "../public/images/blog/6.jpg";
 import image7 from "../public/images/blog/7.jpg";
 import image9 from "../public/images/blog/9.jpg";
 import image10 from "../public/images/blog/10.jpg";
+import image11 from "../public/images/blog/11.jpg";
+import image12 from "../public/images/blog/12.jpg";
+
 
 export interface BlogItemType {
   slug: string;
@@ -61,6 +64,110 @@ export const emptyBlogItem = {
 };
 
 export const blogItems: BlogItemType[] = [
+  {
+    slug: "hanipers-filled-core",
+    title: {
+      en: "It’s time to take a bite and get ready for the journey",
+      fa: "هانیپرز با مغز کرم کاکائویی سبک و خوشمزه",
+    },
+    thumbnail: image12,
+    featureImage: image12,
+    date: {
+      en: "17 aug 2023",
+      fa: "25 مرداد 1402",
+    },
+    views: "1149",
+    content: {
+      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      `,
+      fa: `<p dir="RTL">خیلی از افراد نسبت به خوردن کیک به عنوان میان وعده ترس دارن، چرا که در مورد نخوردن وعده&zwnj;های غذایی اصلی نگرانی دارن. مطمئنا، این روزا درباره لایت کیک&zwnj;ها یا همون کیک&zwnj;های سبک شنیدین. این کیک&zwnj;های سبک خیال شما رو بابت تمام این نگرانی&zwnj;ها برطرف می&zwnj;کنن و می&zwnj;تونین طعم&zwnj;های مختلف لایت کیک رو با چای، قهوه و انواع نوشیدنی و به عنوان میان وعده نوش جون کنین.</p>
+
+<p dir="RTL">امکان نداره درباره لایت کیک چیزی شنیده باشین و اسم <strong>هانیپرز</strong> به گوشتون نخورده باشه. هانیپرز از جمله لایت کیک&zwnj;هاییه که کیفیت بالایی داره و در این مدت کوتاه، تونسته دل خیلی&zwnj;ها رو ببره. این لایت کیک دو طعم <strong>وانیلی</strong> و <strong>شکلاتی</strong> داره. در این مقاله قراره درباره محبوب&zwnj;ترین طعم، یعنی <strong>هانیپرز با مغز کرم کاکائویی</strong> صحبت کنیم.</p>
+
+<h2 dir="RTL"><strong>لایت کیک با کرم کاکائویی</strong></h2>
+
+<p dir="RTL">هانیپرز، یه کیک اسفنجیِ سبکه که بافت بسیار نرمی داره و بسیار لذیذ و خوشمزه&zwnj;اس. حتما از خودتون می&zwnj;پرسین این کیک چه فرقی با کیک&zwnj;های دیگه داره و خب دلیل محبوبیت اون به عنوان میان وعده چیه؟ برای جواب دادن به این سوال باید بگیم که مهم&zwnj;ترین ویژگی&zwnj;های هانیپرز که اونو به یکی از خوشمزه&zwnj;ترین کیک&zwnj;های این روزا تبدیل کرده، سبک و لطیف بودن بافت کیک و همچنین پخش بودن مغزی در تمام نقاط کیکه که با هر گاز می&zwnj;تونین مزه&zwnj;ی کرمِ داخل کیک رو حس کنین. اما یکی از محبوب&zwnj;ترین مدل&zwnj;های هانیپرز، لایت کیک هانیپرز با کرم کاکائوییه و برای عاشقان کاکائو، این کیک می&zwnj;تونه یه میان وعده&zwnj;ی جذاب حساب بشه.</p>
+
+<h2 dir="RTL"><strong>ویژگی&zwnj;های لایت کیک هانیپرز با کرم کاکائویی</strong></h2>
+
+<p dir="RTL">خیلی&zwnj;ها معتقدن که وجود کرم شکلاتی باعث سنگین شدن کیک&zwnj;ها می&zwnj;شه، اما کرم کاکائویی در لایت کیک هانیپرز، به هیچ عنوان این میان وعده رو سنگین نکرده. حتی اگر دو یا سه کیک هانیپرز با کرم کاکائویی رو برای عصرونه و در کنار چای و قهوه بخورین، باز هم احساس سنگینی نمی&zwnj;کنین. در واقع باید گفت که، یک کیلوگرم هانیپرز از یک کیلوگرم پنبه هم سبک&zwnj;تره.</p>
+
+<p dir="RTL">علاوه بر این، کرم کاکائویی داخل این لایت کیک هوادهی شده&zwnj;اس و این موضوع هم، باعث شده که کیک هانیپرز سبک بشه. لایت کیک هانیپرز با کرم کاکائو، ویژگی&zwnj;های دیگه&zwnj;ای هم داره که هر کدام از این ویژگی&zwnj;ها باعث شدن که این کیک به لیست محبوب&zwnj;ترین خوراکی&zwnj;ها اضافه بشه.</p>
+
+<p dir="RTL">هانیپرز کالری کمتری نسبت به کیک&zwnj;های خامه&zwnj;ای داره، مغزیِ کاکائویی کیک به &zwnj;شکل یکسان داخل کیک پخش شده، هیچ رنگ مصنوعی&zwnj;ای نداره، بافت نرم و سبکی داره، حجم بالایی از مغزیِ کاکائویی داره که حدودا ۲۰ درصد از کل محصول رو تشکیل می&zwnj;ده، کیک اسفنجی اون بسیار لطیف و لذیذه، اندازه مناسب و کوچیکی داره، بسته&zwnj;بندی بسیار شیک و باکیفیتی داره و در آخر اینکه، هانیپرز یه کیک سبکه که تو هر گاز سورپرایزت می&zwnj;کنه!</p>
+
+<h2 dir="RTL"><strong>هانیپرز، لایت کیک محبوب میان بچه&zwnj;ها </strong></h2>
+
+<p dir="RTL">هانیپرز در میان بچه&zwnj;ها هم محبوبیت بسیاری داره، چرا که اندازه مناسب و کوچیکی داره و بچه&zwnj;ها راحت می&zwnj;تونن اون رو با خودشون به مدرسه و هر مکانی ببرن و هم اینکه، داخلش با مغزی&zwnj;هایی پر شده که طعم محبوب بچه&zwnj;ها برای انواع کیک هستن. علاوه بر این، کیک&zwnj;های هانیپرز مثل کیک&zwnj;های خامه&zwnj;ای سنگین نیستن، اما از نظر مزه می&zwnj;تونن همون حس و حال رو داشته باشن. به همین خاطر خیلی از پدر و مادرها، کیک&zwnj;های هانیپرز خصوصا مدل کاکائویی رو به عنوان میان وعده بچه&zwnj;ها در مدرسه و کلاس&zwnj;های تابستونی در نظر می&zwnj;گیرن.</p>
+
+<h2 dir="RTL"><strong>سفر به دنیای شیرینِ هانیپرز</strong></h2>
+
+<p dir="RTL">تعداد افرادی که به طعم کاکائو، وانیل و کیک&zwnj;های اسفنجی علاقه دارن، کم نیست. به همین خاطر، مدل&zwnj;های مختلف هانیپرز خصوصا کیک هانیپرز با کرم کاکائویی می&zwnj;تونه به یکی از خوشمزه&zwnj;ترین کیک&zwnj;های عصرانه و میان وعده&zwnj;های محبوب در درصد زیادی از افراد تبدیل بشه. غیر از کرم کاکائویی، هانیپرز یه مدل دیگه هم داره که داخلش با کرم وانیلی پر شده؛ بنابراین، می&zwnj;تونین هر دو مدل رو برای عصرانه و میان وعده&zwnj;هاتون تهیه و یکی از سبک&zwnj;ترین، لذیذترین و البته باکیفیت&zwnj;ترین کیک&zwnj;های حال حاضر رو امتحان کنین.&nbsp;</p>
+`,
+    },
+    tags: { en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    buyLink:
+        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+  },
+  {
+    slug: "hanipers-for-kids-and-adults",
+    title: {
+      en: "It’s time to take a bite and get ready for the journey",
+      fa: "نهایت لذت شکلاتی با هانیپرز کاکائویی، برای بچه‌ها و بزرگترها",
+    },
+    thumbnail: image11,
+    featureImage: image11,
+    date: {
+      en: "17 aug 2023",
+      fa: "25 مرداد 1402",
+    },
+    views: "1149",
+    content: {
+      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      `,
+      fa: `<p dir="RTL">اصلا جای تعجب نداره که چرا اکثریت آدمای روی زمین، خصوصا بچه&zwnj;ها، عاشق شکلات هستن و تقریبا نمی&zwnj;تونن بدون اون زندگی کنن. تخمین زده میشه که در حال حاضر یک میلیارد نفر در روز شکلات می&zwnj;خورن و این میزان مصرف، نشان دهنده محبوبیت این خوراکی جذاب در تمام دنیاس.</p>
+
+<p dir="RTL">یکی از مهم&zwnj;ترین دلایل برای علاقه به شکلات، اینه که شکلات و خوراکی&zwnj;های شکلاتی ما رو خوشحال می&zwnj;کنن. شاید تا به امروز فکر می&zwnj;کردیم که همه عاشق شکلات هستن چون طعم خوبی داره، بوی جذابی داره و وقتی اونو داخل دهنمون می&zwnj;ذاریم سریع آب می&zwnj;شه و همین، حس خوبی بهمون میده.</p>
+
+<p dir="RTL">لذت شکلاتی همون حس خوشحالیه که با خوردن خوراکی&zwnj;های شکلاتی به&zwnj;دست میاریم و در واقع، بخاطر ترشح دوپامین در بدن ماست. دوپامین یک انتقال&zwnj;دهنده عصبیه که به ارسال سیگنال احساس خوب به مغز کمک می&zwnj;کنه. همین دوپامین، حتی می&zwnj;تونه به عنوان کاهش&zwnj;دهنده استرس هم عمل کنه. به همین دلیل که بیشتر مردم موقعی که استرس دارن سراغ شکلات میرن و این خوراکی محبوب رو می&zwnj;خورن.</p>
+
+<p dir="RTL">پس می&zwnj;شه بگیم که شکلات هدیه&zwnj;ای از طبیعته که بزرگ و کوچیک رو خوشحال می&zwnj;کنه و به اونا حس خوب می&zwnj;ده. حالا تصورش رو بکنین که این خوراکی محبوب به شکل کرمی لطیف و داخل کیکی نرم و سبک باشه. درسته! این کیک نرم و لطیف چیزی نیست جز، <strong>هانیپرز کرم کاکائویی</strong>.</p>
+
+<h2 dir="RTL">هانیپرز کرم کاکائویی محبوب دلِ بچه&zwnj;ها</h2>
+
+<p dir="RTL">اگر یک کیک شکلاتی رو جلوی بچه&zwnj;ها بذارین و در کنارش هم یه گزینه&zwnj;ای دیگه مثل یک نوشیدنی رو قرار بدین، مطمئن باشین که انتخاب اول اکثر بچه&zwnj;ها همون خوراکی شکلاتیه. اما این رو هم باید در نظر گرفت که تمام خوراکی&zwnj;های شکلاتی مورد پسند بچه&zwnj;ها نیستن و در لیست بهترین&zwnj;ها قرار نمی&zwnj;گیرن، چرا که برخلاف تصور همه، بچه&zwnj;ها در انتخاب خوارکی خیلی سخت&zwnj;پسندن. اما...</p>
+
+<p dir="RTL">انواع کیک&zwnj;های هانیپرز، خصوصا هانیپرز کرم کاکائویی، تونستن در دل بچه&zwnj;ها جا خوش کنن و به کیک محبوب بچه&zwnj;ها تبدیل بشن. لابد دوست دارین درباره این محبوبیت بیشتر بدونین، پس با همراه شید تا ویژگی&zwnj;های این لایت کرم رو بدونین.</p>
+
+<ol>
+\t<li dir="RTL">مهم&zwnj;ترین ویژگی این کیک خوشمزه، سبک بودن اونه و همین موضوع باعث شده که این کیک به یه میان وعده، عصرانه و صبحانه سبک تبدیل بشه. حتی میزان سبک بودن این کیک به اندازه&zwnj;ایه که بچه&zwnj;ها با خوردن سه تا از این کیک، باز هم احساس سنگینی نمی&zwnj;کنن.</li>
+\t<li dir="RTL">همه می&zwnj;دونیم که بیشتر بچه&zwnj;ها عاشق کیک&zwnj;های خامه&zwnj;ای هستن. هانیپرز کرم کاکائویی، یه لایه&zwnj;ی کرم شکلاتی داخلش داره که تو تمام این کیک مزه&zwnj;اش حس می&zwnj;شه. این کرم شکلاتی خوشمزه، تو هر برش کیک هانیپرز هست و بچه&zwnj;ها می&zwnj;تونن از مزه&zwnj;ی این کرم کاکائویی تو هر گازی که به کیک می&zwnj;زنن، لذت ببرن.</li>
+\t<li dir="RTL">بافت این کیک بسیار سبکه و به همین خاطر به اون لایت کیک می&zwnj;گن.</li>
+\t<li dir="RTL">غیر از هانیپرز کرم کاکائویی، یه مدل دیگه هم از این لایت کیک وجود داره که داخلش با کرم وانیلی پر شده.</li>
+\t<li dir="RTL">اندازه و سایز کوچیک این کیک باعث شده که بچه&zwnj;ها بتونن این خوراکی رو همراه خودشون هر جا داشته باشن و از مزه&zwnj;ی هیجان&zwnj;انگیزِ اون لذت ببرن. همین ویژگی، <strong>هانیپرز کرم کاکائویی</strong> رو به گزینه&zwnj;ای عالی برای میان وعده&zwnj;ی بچه&zwnj;ها تو مدرسه تبدیل کرده.</li>
+</ol>
+
+<p dir="RTL">دیگه یه کیک چی باید داشته باشه که بچه&zwnj;ها نتونن عاشقش بشن؟</p>
+
+<h2 dir="RTL">هانیپرز کرم کاکائویی محبوب دلِ بزرگترها</h2>
+
+<p dir="RTL">این فقط بچه&zwnj;ها نیستن که <strong>عاشق هانیپرز کرم کاکائویی</strong> هستن. بزرگترها هم معیارهایی برای انتخاب بهترین خوراکی دارن که بیشتر این معیارها تو لایت کیک هانیپرز وجود داره.</p>
+
+<p dir="RTL">همون&zwnj;طور که گفتیم، هانیپرز کرم کاکائویی یکی از سبک&zwnj;ترین کیک&zwnj;های حال حاضره که داخلش با کرم کاکائویی پر شده و این کار با دستگاه&zwnj;های خاص انجام شده و همین موضوع باعث شده که کرم در تمام کیک پخش بشه. حتما دارین به این فکر می&zwnj;کنین که این حجم از کرم باید کیک <strong>هانیپرز</strong> رو سنگین کنه! باید بگیم که نه، به هیچ عنوان این&zwnj;طور نیست.</p>
+
+<p dir="RTL">نکته مهم در مورد نحوه ساخت کیک&zwnj;های هانیپرز اینه که، کرم داخل کیک&zwnj;های هانیپرز سبک و هوادهی شده&zwnj;اس. برای همین میشه کیک&zwnj;های هانیپرز رو همراه با چای و قهوه، هم برای صبحانه و هم به عنوان میان وعده و عصرانه استفاده کرد و اصلا حس سنگینی نکرد. بنابراین، اگر دوست دارین تا به دنیای هیجان&zwnj;انگیز هانیپرز سفر کنین و یا بچه&zwnj;تون رو با این خوراکی جذاب خوشحال کنین، روی لینک زیر کلیک کنین و همین امروز هانیپرز کرم کاکائویی رو سفارش بدین.</p>
+`,
+    },
+    tags: { en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    buyLink:
+        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+  },
   {
     slug: "kids-and-hanipers",
     title: {
@@ -393,6 +500,8 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     buyLink:
         "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
+
+
 ];
 
 export const getRandomBlogItem = (exceptSlug: string) => {
