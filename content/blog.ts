@@ -14,7 +14,6 @@ import image10 from "../public/images/blog/10.jpg";
 import image11 from "../public/images/blog/11.jpg";
 import image12 from "../public/images/blog/12.jpg";
 
-
 export interface BlogItemType {
   slug: string;
   title: {
@@ -60,7 +59,8 @@ export const emptyBlogItem = {
     en: [""],
     fa: [""],
   },
-  buyLink: "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+  buyLink:
+    "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
 };
 
 export const blogItems: BlogItemType[] = [
@@ -107,10 +107,12 @@ export const blogItems: BlogItemType[] = [
 <p dir="RTL">تعداد افرادی که به طعم کاکائو، وانیل و کیک&zwnj;های اسفنجی علاقه دارن، کم نیست. به همین خاطر، مدل&zwnj;های مختلف هانیپرز خصوصا کیک هانیپرز با کرم کاکائویی می&zwnj;تونه به یکی از خوشمزه&zwnj;ترین کیک&zwnj;های عصرانه و میان وعده&zwnj;های محبوب در درصد زیادی از افراد تبدیل بشه. غیر از کرم کاکائویی، هانیپرز یه مدل دیگه هم داره که داخلش با کرم وانیلی پر شده؛ بنابراین، می&zwnj;تونین هر دو مدل رو برای عصرانه و میان وعده&zwnj;هاتون تهیه و یکی از سبک&zwnj;ترین، لذیذترین و البته باکیفیت&zwnj;ترین کیک&zwnj;های حال حاضر رو امتحان کنین.&nbsp;</p>
 `,
     },
-    tags: { en: ["tag3", "tag6"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
-        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+      "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
   {
     slug: "hanipers-for-kids-and-adults",
@@ -163,10 +165,12 @@ export const blogItems: BlogItemType[] = [
 <p dir="RTL">نکته مهم در مورد نحوه ساخت کیک&zwnj;های هانیپرز اینه که، کرم داخل کیک&zwnj;های هانیپرز سبک و هوادهی شده&zwnj;اس. برای همین میشه کیک&zwnj;های هانیپرز رو همراه با چای و قهوه، هم برای صبحانه و هم به عنوان میان وعده و عصرانه استفاده کرد و اصلا حس سنگینی نکرد. بنابراین، اگر دوست دارین تا به دنیای هیجان&zwnj;انگیز هانیپرز سفر کنین و یا بچه&zwnj;تون رو با این خوراکی جذاب خوشحال کنین، روی لینک زیر کلیک کنین و همین امروز هانیپرز کرم کاکائویی رو سفارش بدین.</p>
 `,
     },
-    tags: { en: ["tag3", "tag6"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
-        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+      "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
   {
     slug: "kids-and-hanipers",
@@ -220,8 +224,10 @@ export const blogItems: BlogItemType[] = [
 
 `,
     },
-    tags: { en: ["tag1", "teg2"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag1", "teg2"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
@@ -260,7 +266,7 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
     },
     tags: {
       en: ["hanipers", "cake", "light_cake", "creamy_cake"],
-      fa: ["هانیپرز", "کیک", "کیک_سبک", "لایت_کیک" ],
+      fa: ["هانیپرز", "کیک", "کیک_سبک", "لایت_کیک"],
     },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
@@ -310,8 +316,10 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
 <p dir="RTL">اگر دوست دارین تا به دنیای هیجان&zwnj;انگیز هانیپرز سفر کنین و یه لایت کیک با لایت کرم به عنوان میان وعده داشته باشین، روی لینک زیر کلیک کنین و همین امروز هانیپرز رو با کرم مورد علاقه&zwnj;ات سفارش بده.</p>
 `,
     },
-    tags: { en: ["tag4", "tag5"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag4", "tag5"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
@@ -343,8 +351,10 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
 <p dir="RTL">شاید عجیب به نظر برسه، اما یک کیلوگرم هانیپرز از یک کیلوگرم پنبه هم سبک&zwnj;تره و تا وقتی این لایت کیک رو نخوری متوجه این موضوع نمیشی. بنابراین، اگر دوست داری برای میان وعده&zwnj;ات، صبحانه&zwnj;ات، عصرونه&zwnj;ات و یا حتی مهمونی&zwnj;ها یه کیک سبک داشته باشی. حتما هانیپرز رو امتحان کن. برای داشتن هانیپرز، روی لینک خرید کلیک کن و برای سفر به دنیای شادی و لذت این لایت کیک آماده شو.</p>
 `,
     },
-    tags: { en: ["tag1", "tag5"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag1", "tag5"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
@@ -392,8 +402,10 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
 <p dir="RTL">علاوه بر اینکه این کیک کاملا شبیه به کیک&zwnj;های توئینکیه، ویژگی&zwnj;های دیگه&zwnj;ای هم داره. دو ویژگیِ مهم هانیپرز که باعث محبوب این کیک شده، اسفنجی بودن، سبک بودن و همچنین وجود میزانِ مناسبی از کرم خامه&zwnj;ایه که داخل کیک رو پر کرده. یعنی هر اندازه افراد از این کیک بخورن، به هیچ&zwnj;وجه احساس سنگینی نمی&zwnj;کنن. اگر دلت می&zwnj;خواد کیکی رو امتحان کنی که حس و طعم مشابه با کیک&zwnj;های <span dir="LTR">Twinkies</span> داره و لحظاتت رو شیرین کنی، همین الان روی دکمه خرید کلیک کن.</p>
 `,
     },
-    tags: { en: ["tag2", "tag4"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag2", "tag4"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
@@ -432,8 +444,10 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
 
 `,
     },
-    tags: { en: ["tag3", "tag6"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
       "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
@@ -495,13 +509,13 @@ Hanipers is also the most drink-friendly snack you have ever had in your life, t
 
 `,
     },
-    tags: { en: ["tag3", "tag6"],
-      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"] },
+    tags: {
+      en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
     buyLink:
-        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+      "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
   },
-
-
 ];
 
 export const getRandomBlogItem = (exceptSlug: string) => {
