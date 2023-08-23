@@ -30,9 +30,9 @@ const BlogItem: React.FC<BlogItemProps> = forwardRef(
           </Link>
           <div className="blog-itm__detail__meta">
             <span className="date">{date}</span>
-            <span className="views">
-              {views} {t("view")}
-            </span>
+            {/*<span className="views">*/}
+            {/*  {views} {t("view")}*/}
+            {/*</span>*/}
           </div>
         </div>
       </article>

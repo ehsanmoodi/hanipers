@@ -66,7 +66,7 @@ const IndexBlog: React.FC<IndexBlogProps> = ({ title, items }) => {
             }}
             title={locale === "en" ? item.title.en : item.title.fa}
             date={locale === "en" ? item.date.en : item.date.fa}
-            views={item.views}
+            // views={item.views}
             href={`/blog/${item.slug}`}
           />
         ))}

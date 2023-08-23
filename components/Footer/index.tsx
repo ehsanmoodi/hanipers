@@ -39,11 +39,11 @@ const Footer: React.FC = () => {
       href: "https://www.aparat.com/zarkam.official",
       icon: <Aparat />,
     },
-    {
-      id: "twitter",
-      href: "https://twitter.com/hanipers_official",
-      icon: <Twitter />,
-    },
+    // {
+    //   id: "twitter",
+    //   href: "https://twitter.com/hanipers_official",
+    //   icon: <Twitter />,
+    // },
   ];
 
   return (
