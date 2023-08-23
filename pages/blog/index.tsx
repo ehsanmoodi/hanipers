@@ -133,7 +133,7 @@ const Blog: NextPage<
                 alt: locale === "en" ? item.title.en : item.title.fa,
               }}
               title={locale === "en" ? item.title.en : item.title.fa}
-              // date={locale === "en" ? item.date.en : item.date.fa}
+              date={locale === "en" ? item.date.en : item.date.fa}
               views={item.views}
               href={`/blog/${item.slug}`}
             />
