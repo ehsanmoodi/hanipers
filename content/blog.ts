@@ -13,6 +13,8 @@ import image9 from "../public/images/blog/9.jpg";
 import image10 from "../public/images/blog/10.jpg";
 import image11 from "../public/images/blog/11.jpg";
 import image12 from "../public/images/blog/12.jpg";
+import image13 from "../public/images/blog/13.jpg";
+import image14 from "../public/images/blog/14.jpg";
 
 export interface BlogItemType {
   slug: string;
@@ -64,6 +66,151 @@ export const emptyBlogItem = {
 };
 
 export const blogItems: BlogItemType[] = [
+  {
+    slug: "hanipers-with-milkchocolate-in-school",
+    title: {
+      en: "It’s time to take a bite and get ready for the journey",
+      fa: "کنار شیرکاکائو مدرسه چی بهتر از هانیپرز وانیلی",
+    },
+    thumbnail: image13,
+    featureImage: image13,
+    date: {
+      en: "17 aug 2023",
+      fa: "1 مهر 1402",
+    },
+    views: "1149",
+    content: {
+      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      `,
+      fa: `
+      <p dir="RTL">اگر دوران مدرسه خود را مرور کنیم، می&zwnj;بینیم که بسیاری از خوراکی&zwnj;ها در آن زمان نقش مهمی در شکل گرفتن اکثر خاطرات ما دارن و در حال حاضر به خوراکی&zwnj;های نوستالژیک ما تبدیل شدن. این اتفاق ممکنه برای کودکان ما و شما نیز رخ بده و با ترکیب انواع خوراکی&zwnj;ها، خاطراتی شیرین و به یاد ماندنی از دوران مدرسه ثبت کنن.</p>
+
+<p dir="RTL">یکی از ترکیب&zwnj;های جذاب و به یاد ماندنی برای هر نسلی، ترکیبِ شیرکاکائو با انواع کیکه و بچه&zwnj;های الان هم به این ترکیب خیلی علاقه دارن. حالا تصور کنین که این نوشیدنی جذاب رو با یه کیکی بخورن که خیلی سبکه، وانیلیه و داخلش هم کرمِ کاکائویی و وانیلی داره.</p>
+
+<h2 dir="RTL">هانیپرز: خوشمزه&zwnj;ترین و سبک&zwnj;ترین کیک وانیلی</h2>
+
+<p dir="RTL">به نظرتون ویژگی یه کیک خوب چیه؟ چی باعث میشه که یک کیک رو به&zwnj;عنوان یه میان وعده برای مدرسه بچه&zwnj;ها انتخاب کنیم؟ آیا مزه&zwnj;ی کیک مهمه؟ آیا اندازه و حجم کیک اهمیت داره؟</p>
+
+<p dir="RTL">در واقع، باید عنوان کنیم که یه کیک خوب و خوشمزه، باید ترکیبی از چند ویژگی رو داشته باشه. هانیپرز وانیلی یک کیک سبک و لذیذه که با توجه به اینکه چند ویژگی رو به&zwnj;صورت همزمان داره، می&zwnj;تونه به&zwnj;عنوان انتخاب نهایی شما برای تغذیه مدرسه کودکتون انتخاب بشه.</p>
+
+<p dir="RTL">هانیپرز، یه کیک اسفنجی وانیلیه که توش با کرم وانیلی و شکلاتی پر شده. این کیک به&zwnj;قدری سبکه که حتی اگر قرار باشه بچه&zwnj;ها اونو کنار شیرکاکائو در مدرسه بخورن، باز هم احساس سنگینی نمی&zwnj;کنن و به&zwnj;راحتی می&zwnj;تونن به فعالیت&zwnj;هاشون در مدرسه ادامه بدن. اگر دقت کرده باشین، خوردن خوراکی&zwnj;های سنگین در مدرسه باعث خواب&zwnj;آلودگی بچه&zwnj;ها می&zwnj;شه و خب، چی بهتر از اینکه برای بچه&zwnj;ها خوراکی&zwnj;ای رو در نظر بگیرین که باعث این اتفاق نشه.</p>
+
+<p dir="RTL">هانیپرز وانیلی همراه با هر نوشیدنی&zwnj;ای مثل شیرکاکائو، یه میان&zwnj;وعده&zwnj;ی کامله و می&zwnj;تونین مطمئن باشین که فرزندتون عاشق این ترکیب میشه، چون هیچ بچه&zwnj;ای کیک وانیلی و شیرکاکائو رو رد نمی&zwnj;کنه. بنابراین، خوبه که به ما اعتماد کنین و هانیپرز رو برای مدرسه فرزندتون تهیه کنین و در کنار اون حتما شیرکاکائو رو به عنوان نوشیدنی قرار بدین تا همون خاطرات شیرین دوران مدرسه&zwnj;ی خودتون رو برای بچه&zwnj;تون نیز ثبت کنین.</p>
+
+<h2 dir="RTL">حجم بالای کرم که در هر برش کیک&zwnj;های هانیپرز وانیلی</h2>
+
+<p dir="RTL">یکی از دلایلی که باعث میشه هانیپرز وانیلی در کنار شیرکاکائو ترکیبی خوشمزه و لذیذ بشه، کرمِ داخل این کیکه. کرم داخل کیک&zwnj;های هانیپرز سبک و هوادهی شده&zwnj;اس و اصلا به سنگینی کرم&zwnj;های خامه&zwnj;ای کیک&zwnj;های دیگه&zwnj;ی بازار نیست؛ اما در عین حال، کاملا مزه و حس شیرینی&zwnj;ها و کیک&zwnj;های خامه&zwnj;ای رو داره. به همین دلیله که ما این کیک وانیلی رو به&zwnj;عنوان گزینه&zwnj;ای مناسب برای مدرسه بچه&zwnj;ها معرفی می&zwnj;کنیم؛ چرا که می&zwnj;تونن اونو به&zwnj;عنوان میان وعده همراه با هر نوشیدنی&zwnj;ای بخورن.</p>
+
+<p dir="RTL">اما از اونجایی که بچه&zwnj;ها معمولا عاشق کرمِ داخل هر کیک و شیرینی&zwnj;ای هستن و دوست دارن تا اون گاز آخری که یک کیک می&zwnj;زنن مزه&zwnj;ی کرم رو حس کنن، به همین خاطر این حس رو می&zwnj;تونن موقع خوردن کیک هانیپرز تجربه کنن. پخش کردن کرمِ داخل این کیک، توسط دستگاه&zwnj;های خاص انجام میشه که کرم رو از سه نقطه به کیک تزریق می&zwnj;کنن و این یعنی در تمام نقاط این کیک، میشه مزه کرمِ داخلش رو فهمید. نکته مثبت دیگه در وجود سرتاسری کرم داخل کیک اسفنجی کاکائویی هانیپرز، اینه که وجود این کرم در سرتاسر کرم از خشک شدن اون جلوگیری می&zwnj;کنه و بافت کیک رو خیلی نرم و لطیف می&zwnj;کنه.</p>
+
+<h2 dir="RTL">هانیپرز میان وعده&zwnj;ای کامل و سبک برای مدرسه بچه&zwnj;ها</h2>
+
+<p dir="RTL">شاید فکر کنین کیکی که کرم&zwnj;دار هست رو نمیشه به&zwnj;عنوان تغذیه مناسب برای مدرسه بچه&zwnj;ها در نظر گرفت. اما هانیپرز وانیلی این فرضیه رو رد می&zwnj;کنه و با دلیل به شما ثابت می&zwnj;کنه که این کیک می&zwnj;تونه هم تغذیه&zwnj;ای مقوی و هم یک خوراکی خوشمزه برای مدرسه بچه&zwnj;ها باشه. در هانیپرز وانیلی موارد زیر رعایت شده:</p>
+
+<ul>
+\t<li dir="RTL">کالری کمتری نسبت به کیک&zwnj;های خامه&zwnj;ای</li>
+\t<li dir="RTL">عدم استفاده از رنگ مصنوعی در این کیک</li>
+\t<li dir="RTL">بافت سبک</li>
+\t<li dir="RTL">اندازه مناسب و کوچیک</li>
+</ul>
+
+<p dir="RTL">تمام این موارد، هانیپرز رو به انتخاب سالم&zwnj;تری نسبت به بسیاری از محصولات موجود در بازار تبدیل کرده. البته نباید از این موضوع نیز چشم&zwnj;پوشی کرد که، در تولید هانیپرز از مغزی&zwnj;هایی استفاده شده که اکثر بچه&zwnj;ها عاشق مزه و طعم اونا هستن. هانیپرز مدل&zwnj;های مختلفی داره که کیک اسفنجی در هر دو مدل تغییری نمی&zwnj;کنه و این مغزی داخل کیکه که تغییر می&zwnj;کنه. این یعنی در زمان خرید این کیک، مشکلی بابت ذائقه&zwnj;ی فرزندتون ندارین و می&zwnj;تونین مدلی رو تهیه کنین که بیشتر با سلیقه فرزندتون همخونی داره.</p>
+
+<p dir="RTL">با توجه به اینکه بیشتر بچه&zwnj;ها عاشق شکلات و خوراکی&zwnj;های خوشمزه شکلاتی هستن، کیک وانیلی هانیپرز با مغزی کرم کاکائویی به انتخاب محبوب بچه&zwnj;ها تبدیل شده. حالا شما این کیک خوشمزه با مغزی کاکائویی رو کنارِ شیرکاکائو تصور کنین. شک نکنین که فرزندتون عاشق این ترکیب میشه و ترجیح میده زنگ تفریح مدرسه رو با این دو خوراکی خوشمزه سپری کنه.</p>
+
+<h2 dir="RTL">هانیپرز، تغذیه&zwnj;ای خوشمزه برای مدرسه بچه&zwnj;ها</h2>
+
+<p dir="RTL">بسیاری از بچه&zwnj;ها، معمولا جذب بسته&zwnj;بندی و ظاهر خوراکی&zwnj;ها می&zwnj;شن. کیک&zwnj;های هانیپرز هم از نظر مزه و هم از نظر بسته&zwnj;بندی، بسیار باکیفیت و جذاب هستن و همین موضوع باعث شده که روز به روز به محبوبیت این کیک بین بچه&zwnj;ها و حتی بزرگترها اضافه بشه.</p>
+
+<p dir="RTL">علاوه بر این، با توجه به سایز مناسبی که این کیک داره، می&zwnj;تونین اونو کنار شیرکاکائو توی کوله&zwnj;پشتی فرزندتون بذارین و با توجه به سبک بودنش، در انتخاب تعدادِ کیک دست&zwnj;ودل&zwnj;باز عمل کنین. بچه&zwnj;ها با خوردن کیک وانیلی هانیپرز در کنار شیرکاکائو، می&zwnj;تونن انرژی لازم برای فعالیت&zwnj;های ذهنی و فیزیکی در مدرسه رو به دست بیارن و اصلا احساس خستگی و خواب&zwnj;آلودگی نکنن.</p>
+
+<p dir="RTL">بنابراین، همین امروز دست به&zwnj;کار بشین و طعم&zwnj;های متنوع این کیک خوشمزه و لذیذ رو برای تغذیه&zwnj;ی بچه&zwnj;ها در مدرسه بخرین. با خرید هانیپرز در طعم&zwnj;های مختلف، می&zwnj;تونین یکی از سبک&zwnj;ترین، لذیذترین و البته باکیفیت&zwnj;ترین کیک&zwnj;ها رو برای خوردن کنار یکی از لذیذترین و خوشمزه&zwnj;ترین نوشیدنی&zwnj;ها یعنی شیرکاکائو، تهیه کنین و بچه&zwnj;تون رو با این ترکیب جذاب خوشحال کنین.</p>
+
+`,
+    },
+    tags: {
+      en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک سبک", "کیک وانیلی", "لایت کیک"],
+    },
+    buyLink:
+        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+  },
+  {
+    slug: "which-cake-should-i-take-to-school",
+    title: {
+      en: "It’s time to take a bite and get ready for the journey",
+      fa: "کیک برای مدرسه چی ببرم؟",
+    },
+    thumbnail: image14,
+    featureImage: image14,
+    date: {
+      en: "17 aug 2023",
+      fa: "1 مهر 1402",
+    },
+    views: "1149",
+    content: {
+      en: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat blandit volutpat maecenas volutpat
+      `,
+      fa: `
+      <p dir="RTL">کم&zwnj;کم صدای ترانه&zwnj;ی آهنگِ نوستالژیک بوی ماه مهر به گوش می&zwnj;رسه؛ باز آمد بوی ماه مدرسه، بوی بازی&zwnj;های راه مدرسه. درسته، زمان اون رسیده که بچه&zwnj;ها را راهی کلاس درس کنیم و اجازه بدیم تا یکی از بهترین دوران&zwnj;های زندگی&zwnj;شون رو تجربه کنن. اما فراموش نکنین که بهترین خاطرات هر بچه&zwnj;ای در مدرسه، زمانِ زنگ تفریح و موقعی که با دوستاشون وقت می&zwnj;گذرونن، رقم می&zwnj;خوره. برای زنگ تفریح بچه&zwnj;ها فکر کردین؟ آیا به این فکر کردین که چه کیکی رو تو کوله&zwnj;پشتی فرزندتون بذارین تا بتونه دوران مدرسه رو با همکلاسی&zwnj;هاشون جشن بگیره؟</p>
+
+<p dir="RTL">اگر به این موضوع فکر نکردین، نگران نباشین؛ چون ما قراره یه کیک خوشمزه و سبک رو به شما پیشنهاد بدیم که می&zwnj;تونه یک میان وعده&zwnj;ی عالی و مقوی برای زنگ تفریح بچه&zwnj;ها در مدرسه باشه.</p>
+
+<h2 dir="RTL"><strong>هانیپرز همراه بچه&zwnj;ها در مدرسه</strong></h2>
+
+<p dir="RTL">اگر دوست دارین تا فرزندتون در مدرسه انرژی کافی برای فعالیت&zwnj;های ذهنی و بدنی داشته باشه، حتما یه کیک سبک و در عین حال مقوی رو برای اون در نظر بگیرین. علاوه بر این، دنبال کیکی باشین که امتحان خودش رو پس داده و اکثر بچه&zwnj;ها عاشقش هستن. یکی از کیک&zwnj;های محبوب این روزها میان بچه&zwnj;ها، هانیپرزه که مزه&zwnj;ی بسیار جذاب و همه&zwnj;پسندی داره. علاوه بر این، بافت اسفنجی و طعم&zwnj;های متنوعِ هانیپرز باعث شده که این کیک بین بیشتر بچه&zwnj;ها و حتی بزرگترها، به یک میان وعده&zwnj;ی محبوب تبدیل بشه.</p>
+
+<p dir="RTL">یکی از مهم&zwnj;ترین مزیت&zwnj;های هانیپرز به&zwnj;عنوان تغذیه برای مدرسه، اندازه و سایز این کیکه. هانیپرز سایز مناسبی داره و حمل&zwnj;ونقل اون تو کوله&zwnj;پشتی برای بچه&zwnj;ها بسیار راحته. حتی سایز مناسبِ هانیپرز و بافت سبک اسفنجی اون، این کیک رو به یکی از سبک&zwnj;ترین کیک&zwnj;ها تبدیل کرده که حتی اگر بچه&zwnj;ها سه تا از این کیک رو هم برای زنگ تفریح بخورن، باز هم احساس سنگینی نمی&zwnj;کنن. در واقع باید گفت که، یک کیلوگرم کیک هانیپرز از یک کیلوگرم پنبه هم سبک&zwnj;تره:)</p>
+
+<h2 dir="RTL"><strong>انواع هانیپرز: انتخاب عالی برای زنگ تفریح بچه&zwnj;ها</strong></h2>
+
+<p dir="RTL">معمولا بچه&zwnj;ها ذائقه&zwnj;های متفاوتی دارن و ممکنه بعضی از بچه&zwnj;ها عاشق شکلات باشن و بعضی دیگر، به طعم وانیل علاقه داشته باشن. هانیپرز، به این تنوع ذائقه فکر و از اون در تولید کیک&zwnj;هاش استفاده کرده. داخلِ کیک&zwnj;های هانیپرز با مغز وانیل و شکلات پر شده و خب این موضوع، به بزرگترها کمک کرده تا بتونن کیک مورد علاقه فرزندشون رو برای مدرسه انتخاب و خریداری کنن.</p>
+
+<p dir="RTL">معمولا بچه&zwnj;ها به همین کرم داخل کیک&zwnj;ها خیلی علاقه نشون میدن و دوست دارن تا در هر گازی که به کیک می&zwnj;زنن، مزه&zwnj;ی اون کرمِ داخل کیک رو بچشن. یکی دیگر از دلایلی که باعث شده ما به شما هانیپرز رو به&zwnj;عنوان میان وعده&zwnj;ی جذاب و مورد علاقه&zwnj;ی بچه&zwnj;ها پیشنهاد بدیم، همین پخشِ کرم در هر برش کیک هانیپرزه که بچه&zwnj;ها می&zwnj;تونن با هر گازی که به این لایت کیک می&zwnj;زنن، از مزه&zwnj;ی شکلات و وانیل لذت ببرن.</p>
+
+<h2 dir="RTL"><strong>هانیپرز میان وعده&zwnj;ای مقوی برای دوران مدرسه</strong></h2>
+
+<p dir="RTL">علاقه&zwnj;ی بچه&zwnj;ها به خوراکی&zwnj;های شیرین را نمیشه انکار کرد و معمولا بچه&zwnj;ها عاشق کیک&zwnj;های خامه&zwnj;ای و شیرینی&zwnj;های رنگارنگ هستن. به&zwnj;عنوان پدر و مادر، مسلما دوست ندارین که کیکی را برای فرزندتون بخرین که به&zwnj;عنوان غذای مقوی شناخته نمیشه و خب بعضا باعث برخی مشکلات در بچه&zwnj;ها میشه.</p>
+
+<p dir="RTL">نکات مثبت در مورد هانیپرز اینه که، این محصول:</p>
+
+<ul>
+\t<li dir="RTL">کالری کمتری نسبت به کیک&zwnj;های خامه&zwnj;ای داره</li>
+\t<li dir="RTL">حس و طعم مشابه با کیک خامه&zwnj;ای داره</li>
+\t<li dir="RTL">کرم کاکائویی کیک به شکل یکسان داخل کیک پخش شده</li>
+\t<li dir="RTL">هیچ رنگ مصنوعی&zwnj;ای در این کیک استفاده نشده</li>
+\t<li dir="RTL">بافت نرم و سبکی داره</li>
+\t<li dir="RTL">حجم بالایی از مغزیِ کاکائویی داره که حدودا ۲۰ درصد از کل محصول رو تشکیل می&zwnj;ده.</li>
+\t<li dir="RTL">کیک اسفنجی اون بسیار لطیف و لذیذه</li>
+\t<li dir="RTL">اندازه مناسب و کوچیکی داره</li>
+\t<li dir="RTL">بسته&zwnj;بندی بسیار شیک و باکیفیتی داره</li>
+</ul>
+
+<p dir="RTL">علاوه بر این، می&zwnj;تونین هانیپرز کرم کاکائویی رو به&zwnj;عنوان کیکی پرانرژی برای روزهای پرتلاشِ مدرسه در نظر بگیرین. اکثر خوراکی&zwnj;های شکلاتی تاثیر زیادی روی مغز و عملکرد مغز می&zwnj;ذارن و البته، این مزایا بیشتر در شکلاتی طبیعی یافت میشه. با خوردن شکلات، هورمون اندورفین و دوپامین در بدن آزاد میشه و خب این می&zwnj;تونه بچه&zwnj;ها رو خوشحال&zwnj;تر کنه. علاوه بر این و با توجه به اینکه فضای مدرسه و تحصیل با استرس همراهه، با خوردن این مدل کیک&zwnj;های کاکائویی هورمون&zwnj;هایی در بدن ترشح میشه که با استرس مقابله می&zwnj;کنن و این یعنی، احساس خشنودی و جلوگیری از خستگی در بچه&zwnj;ها. دقیقا به همین خاطر هم هست که بیشتر مردم و خصوصا بچه&zwnj;ها، در زمان استرس سراغ خوراکی&zwnj;های شیرین خصوصا انواع شکلات و کاکائو میرن.</p>
+
+<p dir="RTL">بنابراین، می&zwnj;تونین با اطمینان این کیک خوشمزه رو برای مدرسه بچه&zwnj;ها تهیه کنین و اونو به &zwnj;عنوان یک غذای مقوی در نظر بگیرین.</p>
+
+<h2 dir="RTL"><strong>سفر به دنیای شیرینِ هانیپرز در مدرسه</strong></h2>
+
+<p dir="RTL">همون&zwnj;قدر که به وسایل تحصیل بچه&zwnj;ها اهمیت می&zwnj;دیم و به دنبال بهترین کوله&zwnj;پشتی و لوازم&zwnj;التحریر برای بچه&zwnj;ها هستیم، باید در انتخاب خوراکی نیز دقت کنیم و بهترین تغذیه رو برای مدرسه بچه&zwnj;ها انتخاب کنیم. با توجه به اینکه فصل بازگشت به مدرسه فرا رسیده، می&zwnj;تونین از همین امروز برای خرید یک کیک خوشمزه و البته یک غذای مقوی برای مدرسه بچه&zwnj;ها اقدام کنین. هانیپرز در طعم&zwnj;های مختلف، می&zwnj;تونه انتخاب شما برای مدرسه&zwnj;ی بچه&zwnj;ها باشه و با توجه به حجم و سایز مناسبی که داره، می&zwnj;تونین چند تا از این کیک خوشمزه رو داخل کوله&zwnj;پشتی فرزندتون بذارین و مطمئن باشین که در مدرسه گرسنه نمی&zwnj;شه و حتی تا پایان روز هم، انرژی کافی برای انجام تمام کارهای فیزیکی و ذهنی رو داره.</p>
+
+<p dir="RTL">با کلیک روی دکمه خرید، می&zwnj;تونین این کیک بسیار خوشمزه و سبک رو بخرین. این لایت کیک می&zwnj;تونه انتخابی سالم و مقوی برای مدرسه بچه&zwnj;ها باشه، چرا که کالری اون نسبت به بسیاری از شیرینی&zwnj;های خامه&zwnj;ای و کیک&zwnj;های موجود در بازار کمتره و هیچ&zwnj;گونه رنگ مصنوعی&zwnj;ای در تولید این کیک استفاده نشده.</p>
+
+`,
+    },
+    tags: {
+      en: ["tag3", "tag6"],
+      fa: ["کیک", "هانیپرز", "کیک خوشمزه", "کیک وانیلی", "لایت کیک"],
+    },
+    buyLink:
+        "https://www.digikala.com/product/dkp-9264868/%DA%A9%DB%8C%DA%A9-%D9%88%D8%A7%D9%86%DB%8C%D9%84%DB%8C-%D8%A8%D8%A7-%D9%85%D8%BA%D8%B2%DB%8C-%DA%A9%D8%B1%D9%85-%D9%88%D8%A7%D9%86%DB%8C%D9%84-%D9%87%D8%A7%D9%86%DB%8C%D9%BE%D8%B1%D8%B2-36-%DA%AF%D8%B1%D9%85/",
+  },
+
+
   {
     slug: "hanipers-filled-core",
     title: {
