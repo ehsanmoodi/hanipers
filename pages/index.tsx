@@ -14,18 +14,18 @@ import {
   Slider,
 } from "../components";
 import { getLatestBlogItems } from "../content/blog";
-import { Close } from "../icons";
-import modalFeatureImage from "../public/images/modal/modal-feature.png";
+
+import banner from "../public/images/temp/banner.png";
 
 const Home: NextPage = () => {
   const { t } = useTranslation("common");
 
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   useEffect(() => {
-    const timeOut = setTimeout(() => setIsOpen(true), 5000);
+    const timer = setTimeout(() => setIsModalOpen(true), 5000);
 
-    return () => clearTimeout(timeOut);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -50,7 +50,19 @@ const Home: NextPage = () => {
 
       <Footer />
 
-
+      <Dialog
+        open={isModalOpen}
+        as="div"
+        className="relative z-10"
+        onClose={() => setIsModalOpen(false)}
+      >
+        <div className="fixed inset-0 bg-black/75" />
+        <div className="flex items-center justify-center p-4 fixed inset-0">
+          <Dialog.Panel className="w-full max-w-5xl">
+            <Image src={banner} alt="banner" />
+          </Dialog.Panel>
+        </div>
+      </Dialog>
     </>
   );
 };
